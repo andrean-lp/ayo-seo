@@ -46,14 +46,14 @@ Posisikan tepat setelah intro singkat:
   - Hanya sertakan jika mengutip referensi kredibel dunia (Google Developers, Statista, W3C, Forbes, dst.).
   - DILARANG menggunakan anchor text generik seperti "klik di sini". Anchor text harus mendeskripsikan secara jelas isi halaman yang dituju.
 
-### Bagian 4: Strategi Topical Authority (Rekomendasi Cluster)
-Untuk mengedukasi pengguna tentang pentingnya Topical Authority secara halus, berikan penutup khusus dengan format berikut di akhir artikel:
+### Bagian Tambahan: Edukasi SEO & Rekomendasi Langkah Selanjutnya
+Untuk mengedukasi pengguna secara halus, berikan penutup khusus dengan format berikut di akhir artikel:
 
-**💡 Strategi Topical Authority: Langkah Selanjutnya**
-Berikan edukasi singkat (1-2 kalimat) bahwa artikel pilar ini butuh ditopang oleh artikel spesifik agar Google melihat website kita sebagai pakar di topik ini. Kemudian, berikan saran **3–5 judul artikel cluster** yang sangat relevan. 
-Tuliskan langsung format *slash command*-nya agar pengguna tinggal *copy-paste* untuk mengeksekusi artikel selanjutnya, contoh:
-- `/ayo-seo-cluster [Judul Saran 1]`
-- `/ayo-seo-cluster [Judul Saran 2]`
+**💡 Strategi Topical Authority (Internal Link):**
+Beri edukasi singkat (1-2 kalimat) bahwa artikel pilar ini butuh ditopang oleh artikel spesifik agar Google melihat website kita sebagai pakar di topik ini. Kemudian, berikan saran **3–5 judul artikel cluster** yang sangat relevan berserta *slash command*-nya agar tinggal di-copy (contoh: `- /ayo-seo-cluster [Judul]`).
+
+**💡 Aturan Main Outbound Link (Dofollow vs Nofollow):**
+Beri edukasi singkat bahwa artikel Pilar yang bagus *harus* mengutip sumber luar yang kredibel (seperti riset Statista, jurnal, atau dokumentasi resmi) dengan relasi **Dofollow** untuk membuktikan *Trust* (E-E-A-T). Ingatkan mereka bahwa relasi **Nofollow/Sponsored** hanya dipakai untuk link afiliasi atau promosi berbayar. Minta pengguna memvalidasi *outbound link* yang sudah disematkan di artikel ini.
 
 ### Bagian 5: FAQ (Tanya Jawab) Berbasis Intent
 Sediakan 3–5 pertanyaan yang sering dicari audiens:
