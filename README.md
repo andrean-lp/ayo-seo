@@ -71,6 +71,23 @@ Setiap artikel yang di-*generate* akan langsung menyertakan elemen SEO Teknis di
 
 ---
 
+## 🤖 Integrasi API CMS & Skema Autopilot
+
+Ayo SEO tidak hanya bisa dipakai secara manual via chat, tapi arsitektur *output* Markdown-nya (khususnya *Universal Markdown*) dirancang agar kompatibel penuh jika kamu ingin mengotomatisasinya menggunakan ekosistem *Agentic AI* (seperti OpenClaw / Hermes). 
+
+Jika kamu ingin merangkai sistem penulisan dan *upload* otomatis (*Programmatic SEO*), Ayo SEO sangat mendukung integrasi dengan API CMS populer berikut:
+
+1. **WordPress (WP REST API):** 
+   Sistem dapat mengonversi output Ayo SEO dan menembakkannya langsung ke *endpoint* `POST /wp-json/wp/v2/posts`. Cukup gunakan *Application Password* di WordPress-mu untuk autentikasi yang aman.
+2. **Google Blogger (Blogger API v3):** 
+   Sangat cocok untuk *spamming* blog *dummy* atau PBN berbiaya rendah. Gunakan Google Cloud Console untuk mendapatkan kredensial, dan arahkan hasil ke *endpoint* Blogger API v3.
+3. **Git-Based CMS (PagesCMS / Keystatic):** 
+   Tidak butuh API CMS khusus! Agent hanya perlu menggunakan **GitHub API** untuk melakukan `git push` file Markdown `.md` langsung ke repositorimu. Sangat bersih, ter-versi (*version control*), dan anti-hack.
+
+> **Tips:** Silakan baca *blueprint* spesifik untuk otomatisasi ini di file `rules/AUTOPILOT_ARCHITECTURE.md`.
+
+---
+
 ## 📦 Cara Instalasi
 
 ### Sebagai Plugin Antigravity (Global)
