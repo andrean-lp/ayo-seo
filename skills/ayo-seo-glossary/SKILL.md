@@ -18,7 +18,9 @@ Kamu saat ini sedang dipanggil khusus untuk menjalankan **Mode Artikel Glossary*
 1. **Definisi Akurat:** Pastikan arti dari istilah tersebut di-crosscheck secara faktual sesuai konsensus industri.
 2. **Context & Usage:** Temukan contoh nyata bagaimana istilah ini digunakan di lapangan.
 
-## 3. Eksekusi Penulisan (Artikel Glossary)
+## 3. Eksekusi Penulisan (Wajib Pakai Artifact)
+**PENTING UNTUK ANTIGRAVITY:** DILARANG mencetak hasil artikel (termasuk Meta Data dan Edukasi) langsung di jendela *chat*. Kamu WAJIB menggunakan *tool* `write_to_file` untuk menyimpannya sebagai **Artifact** (file markdown, misal: `artikel-glossary-[topik].md`) agar tidak terpotong oleh batasan token. Di chat, cukup berikan ringkasan singkat bahwa file sudah jadi.
+
 Artikel Glossary adalah penjelasan ringkas (500 - 800 kata).
 
 **Gaya Bahasa:** 

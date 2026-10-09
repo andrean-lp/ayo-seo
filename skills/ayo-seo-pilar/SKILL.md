@@ -20,7 +20,9 @@ Sebelum menulis satu baris pun artikel, lakukan tahap riset:
 2. **Entity & Semantic Mapping:** Tentukan entitas kunci agar mesin pencari mengenali topik secara holistik.
 3. **Analisis Nilai Tambah (Information Gain):** Tentukan apa hal baru yang belum ada di page 1 Google.
 
-## 3. Eksekusi Penulisan (Artikel Pilar)
+## 3. Eksekusi Penulisan (Wajib Pakai Artifact)
+**PENTING UNTUK ANTIGRAVITY:** DILARANG mencetak hasil artikel (termasuk Meta Data dan Edukasi) langsung di jendela *chat*. Kamu WAJIB menggunakan *tool* `write_to_file` untuk menyimpannya sebagai **Artifact** (file markdown, misal: `artikel-pilar-[topik].md`) agar tidak terpotong oleh batasan token. Di chat, cukup berikan ringkasan singkat bahwa file sudah jadi.
+
 Artikel Pilar adalah panduan komprehensif, luas, dan mendalam (2.500 - 4.000+ kata).
 
 **Gaya Bahasa:** 

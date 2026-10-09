@@ -20,7 +20,9 @@ Sebelum menulis satu baris pun artikel, lakukan tahap riset:
 2. **Entity & Semantic Mapping:** Temukan entitas sempit yang berkaitan dengan subtopik ini.
 3. **Analisis Nilai Tambah (Information Gain):** Tentukan apa hal baru yang belum ada di page 1 Google.
 
-## 3. Eksekusi Penulisan (Artikel Cluster)
+## 3. Eksekusi Penulisan (Wajib Pakai Artifact)
+**PENTING UNTUK ANTIGRAVITY:** DILARANG mencetak hasil artikel (termasuk Meta Data dan Edukasi) langsung di jendela *chat*. Kamu WAJIB menggunakan *tool* `write_to_file` untuk menyimpannya sebagai **Artifact** (file markdown, misal: `artikel-cluster-[topik].md`) agar tidak terpotong oleh batasan token. Di chat, cukup berikan ringkasan singkat bahwa file sudah jadi.
+
 Artikel Cluster adalah panduan tajam dan fokus (1.200 - 2.000 kata).
 
 **Gaya Bahasa:** 
