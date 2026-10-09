@@ -31,7 +31,7 @@ Artikel Cluster adalah panduan tajam dan fokus (1.200 - 2.000 kata).
 
 ### Bagian 1: Struktur & Metadata
 - **URL Slug:** Singkat, bersih, huruf kecil, dipisahkan tanda hubung (`-`).
-- **Meta Title:** 50–60 karakter.
+- **Meta Title:** 50–60 karakter. **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
 - **Meta Description:** 130–155 karakter.
 
 ### Bagian 2: Key Takeaways / TL;DR (Wajib untuk GEO & AEO)

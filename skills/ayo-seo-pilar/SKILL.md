@@ -32,7 +32,7 @@ Artikel Pilar adalah panduan komprehensif, luas, dan mendalam (2.500 - 4.000+ ka
 
 ### Bagian 1: Struktur & Metadata (Hanya Teks, Bukan Code Block)
 - **URL Slug:** Singkat, bersih, huruf kecil, dipisahkan tanda hubung (`-`).
-- **Meta Title:** 50–60 karakter, memuat intent utama, memikat untuk diklik di SERP.
+- **Meta Title:** 50–60 karakter, memuat intent utama, memikat untuk diklik di SERP. **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
 - **Meta Description:** 130–155 karakter, ringkasan akurat tanpa keyword stuffing.
 
 ### Bagian 2: Key Takeaways / TL;DR (Wajib untuk GEO & AEO)

@@ -29,7 +29,7 @@ Artikel Glossary adalah penjelasan ringkas (500 - 800 kata).
 
 ### Bagian 1: Struktur & Metadata
 - **URL Slug:** Singkat, nama-istilah.
-- **Meta Title:** 50–60 karakter (contoh: Apa itu [Istilah]? Definisi dan Fungsinya).
+- **Meta Title:** 50–60 karakter (contoh: Apa itu [Istilah]? Definisi dan Fungsinya). **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
 - **Meta Description:** 130–155 karakter, memuat ringkasan definisi 1 kalimat.
 
 ### Bagian 2: Key Takeaways / TL;DR (Wajib untuk GEO & AEO)
