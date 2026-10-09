@@ -22,12 +22,12 @@ Agar otomatisasi menghasilkan trafik yang pasti dan relevan jangka panjang (*hig
 - **Contoh Ditolak:** "youtube shopping" (2 kata - terlalu luas, *intent* bias).
 *Alasan: Keyword 4+ kata memiliki search intent yang sangat jernih (informasional/edukasional). Membiarkan AI mengeksekusi keyword pendek (1-3 kata) secara massal akan menghasilkan konten "sampah" yang tidak relevan.*
 
-### Rule #2: Struktur Artikel Cluster (DeepSeek Prompting)
-Ketika DeepSeek V4.1 Flash mengeksekusi *long-tail keyword*, wajib mengikuti kerangka ini:
-1. **Paragraf 1 (TL;DR):** Langsung berikan jawaban instan (*Featured Snippet Target*). Jangan menggunakan *intro* berbunga-bunga.
-2. **Body (Step-by-Step):** Gunakan *bullet points* atau *numbered lists*.
-3. **Information Gain (Konteks Praktisi):** Arahkan *Agent* untuk memasukkan pola bahasa seperti *"Masalah umum yang sering terjadi adalah..."* untuk memberikan *vibe* pengalaman praktisi.
-4. **Skema FAQ:** Wajib buatkan 3 pertanyaan turunan dalam format JSON-LD `FAQPage`.
+### Rule #2: Struktur Artikel (Universal Markdown)
+Agar hasil *generate* kompatibel dengan **SEMUA jenis CMS** (WordPress, Blogger, Keystatic, Ghost, dll), DeepSeek V4.1 Flash dilarang menggunakan kode kustom (seperti JSON-LD) atau komponen spesifik. Gunakan Markdown standar:
+1. **Paragraf 1 (TL;DR Organik):** Langsung berikan jawaban instan dalam bentuk teks biasa (bisa dicetak tebal/*bold*). Ini adalah umpan untuk *Featured Snippet*. Jangan gunakan *intro* klise.
+2. **Body (Step-by-Step):** Gunakan *bullet points* atau *numbered lists* standar.
+3. **Information Gain (Konteks Praktisi):** Sisipkan pola bahasa seperti *"Masalah umum yang sering terjadi adalah..."* untuk memberikan *vibe* pengalaman manusia.
+4. **FAQ Organik (Tanpa Schema):** Buat 3 pertanyaan turunan menggunakan format **Heading 3 (H3)** untuk pertanyaan, dan paragraf biasa untuk jawaban. (Google tetap bisa membacanya sebagai FAQ tanpa perlu kode JSON-LD).
 
 ### Rule #3: Internal Linking Dinamis (The Spider Web)
 Tugas utama *Autopilot* adalah memberi "makan" (otoritas) ke artikel Pilar milik pengguna.
