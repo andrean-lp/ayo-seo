@@ -13,6 +13,7 @@ Ketika pengguna meminta dibuatkan artikel atau menyebut topik baru:
 1. **Selalu tanyakan terlebih dahulu mode yang ingin dibuat**:
    - 🏛️ **Artikel Pilar (Pillar Post)**: Pembahasan komprehensif, luas dan mendalam (2.500 - 4.000+ kata), memayungi sebuah topik besar, menjadi induk rujukan untuk topik-topik turunan.
    - 🎯 **Artikel Cluster (Supporting Post)**: Pembahasan tajam, fokus pada satu subtopik/masalah spesifik (1.200 - 2.000 kata), menjawab search intent secara presisi, dan dirancang untuk memberikan internal link ke Artikel Pilar.
+   - 📖 **Artikel Glossary (Kamus Istilah)**: Artikel pendek (500 - 800 kata) yang dirancang khusus untuk menjawab definisi ("Apa itu X"), fungsi utama, dan contoh penggunaannya. Sangat fokus pada intent informasi dasar.
 2. Jika pengguna belum menentukan topik atau kata kunci, diskusikan sebentar sudut pandang unik (*value add*) yang ingin ditonjolkan agar artikel tidak menjadi sekadar kompilasi artikel kompetitor.
 
 ---
@@ -45,7 +46,7 @@ Setiap artikel yang dihasilkan harus memiliki anatomi lengkap berikut:
 - **URL Slug:** Singkat, bersih, huruf kecil, dipisahkan tanda hubung (`-`), mencerminkan topik utama tanpa kata mubazir.
 - **Meta Title:** 50–60 karakter, memuat intent utama, memikat untuk diklik di SERP.
 - **Meta Description:** 130–155 karakter, ringkasan akurat tanpa keyword stuffing, memiliki ajakan membaca yang jelas.
-- **Target Mode:** Pilar atau Cluster.
+- **Target Mode:** Pilar, Cluster, atau Glossary.
 
 ### Bagian 2: Key Takeaways / TL;DR (Wajib untuk GEO & AEO)
 Posisikan tepat setelah intro singkat:
@@ -68,6 +69,7 @@ Posisikan tepat setelah intro singkat:
 ### Bagian 4: Rekomendasi Internal Linking
 - Jika mode **Pilar:** Berikan saran 3–5 topik artikel cluster yang harus dibuat dan dihubungkan.
 - Jika mode **Cluster:** Tunjukkan anchor text dan kalimat rekomendasi untuk mengarahkan pembaca kembali ke Artikel Pilar utama.
+- Jika mode **Glossary:** Tunjukkan kalimat rekomendasi yang menyisipkan link menuju Artikel Pilar atau layanan utama yang terkait dengan istilah tersebut.
 
 ### Bagian 5: FAQ (Tanya Jawab) Berbasis Intent
 Sediakan 3–5 pertanyaan yang sering dicari audiens:

@@ -10,7 +10,7 @@ Plugin Antigravity untuk generate artikel berkualitas tinggi berstandar **Google
 
 | Fitur | Deskripsi |
 |-------|-----------|
-| **2 Mode Artikel** | 🏛️ **Pilar** (komprehensif, 2.500–4.000+ kata) dan 🎯 **Cluster** (fokus, 1.200–2.000 kata) |
+| **3 Mode Artikel** | 🏛️ **Pilar** (komprehensif, 2.500–4.000+ kata), 🎯 **Cluster** (fokus spesifik, 1.200–2.000 kata), dan 📖 **Glossary** (definisi istilah, 500-800 kata) |
 | **Riset E-E-A-T** | Riset mendalam sebelum menulis: Search Intent, Entity Mapping, Information Gain, Gap Kompetitor |
 | **Key Takeaways / TL;DR** | Poin intisari di awal artikel untuk optimasi GEO & AEO (Google AI Overviews, Perplexity, ChatGPT Search) |
 | **FAQ (Tanya Jawab)** | 3–5 pertanyaan berbasis intent pencarian + rekomendasi Schema JSON-LD `FAQPage` |
@@ -47,7 +47,7 @@ Buatkan artikel tentang "cara meningkatkan domain authority"
 ```
 
 Agent akan otomatis:
-1. **Tanya mode** — Pilar atau Cluster?
+1. **Tanya mode** — Pilar, Cluster, atau Glossary?
 2. **Riset** — Search intent, entitas, nilai tambah
 3. **Generate** — Artikel lengkap dengan Key Takeaways, FAQ, outbound link, dan saran internal linking
 
@@ -57,6 +57,7 @@ Agent akan otomatis:
 |--------|------|
 | `Buat artikel pilar komprehensif tentang SEO on-page` | Pilar |
 | `Buat artikel cluster tentang cara optimasi meta description` | Cluster |
+| `Buat artikel glossary yang menjelaskan apa itu Backlink` | Glossary |
 | `Riset topik dan struktur konten untuk "email marketing"` | Riset saja |
 
 ## Struktur Plugin
@@ -117,6 +118,9 @@ Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/
 6. **Jangan publish massal** tanpa quality check — Google menghukum konten massal tanpa nilai tambah
 
 ## Changelog
+
+### v1.2.0 (2026-10-09)
+- Penambahan mode **Glossary** (Kamus Istilah) untuk melayani *search intent* definisi istilah dengan ringkas dan terfokus.
 
 ### v1.1.0 (2026-10-09)
 - Penyelarasan penuh dengan **Google SEO Starter Guide**:
