@@ -1,158 +1,111 @@
 # Ayo SEO — AI Agent Senior SEO Content Specialist
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/Version-1.4.0-blue.svg)]()
+[![Platform](https://img.shields.io/badge/Platform-Antigravity-orange.svg)]()
 
-Plugin Antigravity untuk generate artikel berkualitas tinggi berstandar **Google E-E-A-T**, dengan gaya bahasa santai aku-kamu yang natural, optimasi **GEO/AEO**, dan struktur **Pilar–Cluster** yang solid.
+**Ayo SEO** adalah plugin (AI Agent) khusus untuk Antigravity yang dirancang agar bertindak sebagai **Senior SEO Content Strategist**. Plugin ini tidak sekadar menghasilkan teks layaknya robot, melainkan memikirkan strategi *Topical Authority*, meriset entitas semantik, dan mengeksekusi artikel berstandar **Google E-E-A-T** (Experience, Expertise, Authoritativeness, Trustworthiness) yang siap mendominasi pencarian Google dan AI Search (GEO/AEO).
 
-> Terinspirasi dari [Ponytail](https://ponytail.dev) — tapi kalau Ponytail adalah "lazy senior developer", Ayo SEO adalah **"senior SEO specialist"** yang memastikan setiap artikel layak bersaing di Google, AI Overviews, dan Answer Engine.
+> *"Ubah Kontenmu Jadi Aset Digital Yang Bekerja Jangka Panjang. Saat konten medsos mudah hilang dan tenggelam, Website dan YouTube adalah aset digital yang terus hidup."*
 
-## Fitur Utama
+---
 
-| Fitur | Deskripsi |
-|-------|-----------|
-| **3 Mode Artikel** | 🏛️ **Pilar** (komprehensif, 2.500–4.000+ kata), 🎯 **Cluster** (fokus spesifik, 1.200–2.000 kata), dan 📖 **Glossary** (definisi istilah, 500-800 kata) |
-| **Riset E-E-A-T** | Riset mendalam sebelum menulis: Search Intent, Entity Mapping, Information Gain, Gap Kompetitor |
-| **Key Takeaways / TL;DR** | Poin intisari di awal artikel untuk optimasi GEO & AEO (Google AI Overviews, Perplexity, ChatGPT Search) |
-| **FAQ (Tanya Jawab)** | 3–5 pertanyaan berbasis intent pencarian + rekomendasi Schema JSON-LD `FAQPage` |
-| **Outbound Link Dofollow** | Referensi otoritatif internasional (bukan website Indonesia) — hanya editorial, bukan spam |
-| **Tone Natural** | Gaya aku-kamu, santai, humble, tidak terlihat seperti tulisan AI |
-| **Internal Linking Strategy** | Saran artikel cluster (dari pilar) atau anchor text kembali ke pilar (dari cluster) |
+## 🌟 Kenapa Harus Ayo SEO?
 
-## Instalasi
+Di era *Helpful Content System*, Google menghukum keras artikel AI yang kaku, penuh *keyword stuffing*, dan tidak memberikan *Information Gain* (nilai tambah). 
+
+**Ayo SEO diciptakan untuk menyelesaikan masalah tersebut:**
+1. **Bukan Sekadar Penulis, Tapi Ahli Strategi:** Agent ini melakukan riset *Search Intent* dan pemetaan entitas sebelum menulis.
+2. **Gaya Bahasa "Manusia":** Menggunakan *tone* "aku-kamu" yang santai, humble, dan natural. Tidak ada lagi kalimat klise seperti *"Di era digital saat ini..."* atau *"Kesimpulannya adalah..."*
+3. **Mendukung Ekosistem Affiliate:** Sangat cocok untuk *Affiliate Marketer* (seperti Shopee Affiliate / YouTube Shopping) yang butuh mengubah *traffic* organik menjadi *passive income*.
+4. **Siap Menghadapi AI Overviews (SGE):** Artikel otomatis dilengkapi dengan *Key Takeaways* (TL;DR) dan Skema FAQ.
+
+---
+
+## 🚀 Daftar Mode Artikel
+
+Ayo SEO memiliki 3 mode utama yang dirancang untuk membangun hierarki website (*Topical Authority*) yang sempurna:
+
+### 1. 🏛️ Mode Pilar (Pillar Post)
+- **Karakter:** Panduan super komprehensif, luas, dan mendalam. Menjadi "pusat" dari sebuah topik besar.
+- **Panjang Kata:** 2.500 - 4.000+ kata.
+- **Tugas Khusus:** Wajib memiliki *Outbound Link* ke sumber kredibel dunia (relasi Dofollow) untuk membuktikan otoritas.
+
+### 2. 🎯 Mode Cluster (Supporting Post)
+- **Karakter:** Pembahasan tajam dan sangat spesifik. Sangat cocok untuk membidik *long-tail keywords* (4+ kata).
+- **Panjang Kata:** 1.200 - 2.000 kata.
+- **Tugas Khusus:** Membangun *Internal Link* kembali ke Artikel Pilar untuk menyalurkan *PageRank*. Tidak wajib memiliki *Outbound Link* kecuali sangat mendesak.
+
+### 3. 📖 Mode Glossary (Kamus Istilah)
+- **Karakter:** Penjelasan ringkas, *to the point*, dan ramah pemula. Titik masuk untuk *traffic* di fase *awareness*.
+- **Panjang Kata:** 500 - 800 kata.
+- **Tugas Khusus:** Menjembatani pengunjung awal menuju ke artikel Pilar atau Halaman Layanan/Produk utama agar tidak terjadi *bounce rate* tinggi.
+
+---
+
+## ⚡ Slash Commands & Strategi Hemat Token
+
+Untuk mempercepat kerja (*workflow*), kamu bisa langsung memanggil mode yang diinginkan melalui kolom *chat* tanpa harus melewati tahap "tanya jawab" awal.
+
+| Command | Fungsi | Model AI yang Disarankan |
+|---------|--------|--------------------------|
+| `/ayo-seo` | **General Router** (Tanya jawab & Edukasi Riset Keyword) | Fleksibel |
+| `/ayo-seo-pilar` | Langsung eksekusi **Artikel Pilar** | **Gemini 3.1 Pro (High)** (Butuh penalaran logis & E-E-A-T maksimal) |
+| `/ayo-seo-cluster`| Langsung eksekusi **Artikel Cluster** | **Gemini 3.8 Flash (High)** (Cepat, tajam, hemat token) |
+| `/ayo-seo-glossary`| Langsung eksekusi **Artikel Glossary** | **Gemini 3.8 Flash (High)** (Cepat, tajam, hemat token) |
+
+**Contoh Penggunaan Cepat:**
+> `/ayo-seo-cluster Cara daftar YouTube Shopping Affiliate Shopee`
+
+---
+
+## 🔧 Fitur SEO Teknis (Bawaan Otomatis)
+
+Setiap artikel yang di-*generate* akan langsung menyertakan elemen SEO Teknis di bagian atas (*ready to copy-paste* ke CMS seperti Keystatic, WordPress, atau PagesCMS):
+- **URL Slug:** Bersih, huruf kecil, dan dipisahkan tanda hubung.
+- **Meta Title:** Menarik (*click-worthy*), dibatasi 50-60 karakter.
+- **Meta Description:** Padat, informatif, dibatasi 130-155 karakter (anti terpotong di Google).
+- **Struktur Heading:** H2, H3, H4 yang logis.
+- **Saran Alt Text Gambar:** Rekomendasi penempatan visual + deskripsi aksesibilitas.
+- **Pojok Edukasi SEO:** Di akhir artikel, agent akan memberikan *copywriting* persis untuk strategi *Internal Linking* dan panduan *Outbound Link*.
+
+---
+
+## 📦 Cara Instalasi
 
 ### Sebagai Plugin Antigravity (Global)
-
-Copy folder ini ke direktori plugin Antigravity:
+Buka terminal dan jalankan perintah ini agar plugin terpasang secara permanen di sistem Antigravity lokalmu:
 
 ```bash
 # Clone repo
-git clone https://github.com/<username>/ayo-seo.git
+git clone https://github.com/andrean-lp/ayo-seo.git
 
 # Copy ke plugin directory
 cp -r ayo-seo ~/.gemini/config/plugins/ayo-seo
 ```
+*Restart Antigravity untuk mengaktifkan plugin.*
 
-Restart Antigravity untuk mengaktifkan plugin.
+---
 
-### Sebagai Plugin di Repository (Per-Project)
+## 💡 Pedoman Kualitas Artikel (SEO Playbook)
 
-Letakkan folder ini di `.gemini/plugins/ayo-seo/` di dalam repository kamu.
+Ayo SEO dilatih dengan aturan ketat dari [Google Search Essentials](https://developers.google.com/search/docs/essentials):
 
-## Cara Pakai
+1. **Anchor Text Deskriptif:** Dilarang keras menggunakan teks generik seperti "klik di sini", "baca selengkapnya". *Anchor text* harus mendeskripsikan secara jelas isi halaman tujuan.
+2. **Manajemen Outbound Link:**
+   - ✅ **Dofollow:** Hanya untuk sitasi editorial ke sumber otoritatif (Jurnal, Statista, W3C, Google Developers).
+   - ❌ **Nofollow/Sponsored:** Wajib digunakan untuk *link* afiliasi (misal: Shopee, Amazon) atau artikel bersponsor.
+3. **No Wall of Text:** Paragraf dijaga tetap pendek (2-3 kalimat per paragraf), menggunakan tabel, dan *bullet points* agar mudah di-*skim* oleh pembaca.
+4. **Information Gain Pertama:** AI diwajibkan untuk mencari *angle* atau sudut pandang baru yang belum dibahas oleh kompetitor di Halaman 1 Google.
 
-Cukup minta agent untuk membuat artikel:
+---
 
-```
-Buatkan artikel tentang "cara meningkatkan domain authority"
-```
+## 📝 Changelog Terbaru
 
-Agent akan otomatis:
-1. **Tanya mode** — Pilar, Cluster, atau Glossary?
-2. **Riset** — Search intent, entitas, nilai tambah
-3. **Generate** — Artikel lengkap dengan Key Takeaways, FAQ, outbound link, dan saran internal linking
+- **v1.4.0 (2026-10-09):** Perombakan besar-besaran dokumentasi (README.md) menjadi *Playbook* komprehensif. Penegasan *positioning* untuk Website, YouTube, dan Affiliate.
+- **v1.3.6:** Penambahan fitur edukasi keberadaan *Slash Commands* di rute utama `/ayo-seo`.
+- **v1.3.5:** Penambahan edukasi dinamis untuk penghematan token (Rekomendasi *Gemini 3.8 Flash* untuk Cluster/Glossary).
+- **v1.3.4:** Penambahan *Pojok Edukasi SEO (Outbound & Internal Link)* di bagian penutup setiap artikel hasil *generate*.
 
-### Daftar Slash Commands
-
-Agent ini mendukung beberapa perintah cepat (*slash commands*) di kolom chat:
-
-| Command | Mode | Penjelasan |
-|---------|------|------------|
-| `/ayo-seo` | **General Router** | Akan menanyakan mode apa yang ingin kamu buat (Pilar/Cluster/Glossary) sebelum mengeksekusi artikel. |
-| `/ayo-seo-pilar` | **Pilar** | Jalan pintas untuk langsung mengeksekusi panduan Pilar komprehensif tanpa ditanya lagi. |
-| `/ayo-seo-cluster`| **Cluster** | Jalan pintas untuk langsung mengeksekusi artikel pendukung (Cluster) yang tajam & spesifik. |
-| `/ayo-seo-glossary`| **Glossary** | Jalan pintas untuk langsung mengeksekusi penjelasan definisi kamus istilah. |
-
-Contoh pemakaian jalan pintas:
-`/ayo-seo-pilar Buat panduan lengkap tentang SEO On-Page`
-
-## Struktur Plugin
-
-```
-ayo-seo/
-├── plugin.json              # Manifest plugin
-├── rules/AGENTS.md          # Rules untuk agent (karakter & mindset)
-├── skills/ayo-seo/SKILL.md  # Skill utama: flow, format, pedoman
-├── references/              # Referensi kualitas artikel
-│   └── artikel-berkualitas.md
-├── LICENSE                   # MIT License
-└── README.md                 # Dokumentasi (file ini)
-```
-
-## Pedoman Kualitas Artikel (Ringkasan)
-
-Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) dan [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide):
-
-1. **People-First Content** — Konten dibuat terutama untuk membantu manusia, bukan sekadar memanipulasi algoritma pencarian.
-2. **E-E-A-T** — Experience, Expertise, Authoritativeness, Trustworthiness.
-3. **Information Gain** — Memberikan nilai tambah, perspektif baru, dan data yang belum ada di artikel kompetitor.
-4. **Anchor Text Deskriptif** — Teks tautan menjelaskan tujuan halaman secara alami; hindari teks generik ("klik di sini").
-5. **Aksesibilitas & Gambar** — Sertakan ide gambar kontekstual dengan deskripsi `alt text` yang relevan.
-6. **Struktur URL & Meta Snippet** — URL slug bersih/ringkas, meta title menarik (50–60 karakter), dan meta description informatif (130–155 karakter).
-7. **Outbound Link Kredibel** — Dofollow hanya untuk sitasi editorial ke sumber otoritatif internasional; nofollow/sponsored untuk link berbayar/afiliasi.
-8. **GEO/AEO Ready** — Key Takeaways dan FAQ Schema agar konten mudah dikutip oleh AI Search (Google AI Overviews, Perplexity, ChatGPT Search).
-
-## Pedoman Outbound Link
-
-| Kondisi | Aksi |
-|---------|------|
-| Mengutip data riset/statistik dari sumber kredibel internasional | ✅ Dofollow |
-| Merujuk dokumentasi teknis resmi (Google, W3C, MDN) | ✅ Dofollow |
-| Link afiliasi atau sponsor | ❌ `rel="sponsored"` |
-| Konten buatan pengguna (komentar, forum) | ❌ `rel="ugc"` |
-| Link tidak relevan hanya untuk "memperbanyak link" | ❌ Jangan pasang |
-| Website mencurigakan / low-quality | ❌ Jangan pasang |
-
-> **Sumber:** [Qualify Outbound Links for SEO — Google Search Central](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links)
-
-## Sumber & Referensi
-
-- [Panduan Memulai SEO (Google SEO Starter Guide)](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=id)
-- [Creating Helpful, Reliable, People-First Content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
-- [Google Search Essentials](https://developers.google.com/search/docs/essentials)
-- [Google's Guidance on AI-Generated Content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content)
-- [Qualify Outbound Links for SEO](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links)
-- [Panduan Lengkap Artikel Pilar — Saungwriter](https://saungwriter.com/artikel-pilar)
-
-## Saran untuk Hasil Maksimal
-
-1. **Selalu berikan konteks niche/website kamu** saat meminta artikel — agent akan menyesuaikan tone dan sudut pandang
-2. **Mulai dari artikel pilar**, lalu bangun cluster articles di sekitarnya untuk topical authority
-3. **Review & edit hasil AI** — tambahkan pengalaman pribadi, studi kasus nyata, data internal untuk memperkuat E-E-A-T
-4. **Gunakan slug & meta description** yang di-generate langsung ke form SEO CMS kamu
-5. **Pasang FAQ Schema** di CMS kamu (Schema.org FAQPage) untuk meningkatkan peluang rich snippets & AI Overview
-6. **Jangan publish massal** tanpa quality check — Google menghukum konten massal tanpa nilai tambah
-
-## Changelog
-
-### v1.3.2 (2026-10-09)
-- Penambahan fungsi edukasi di rute utama (`/ayo-seo`). Agent sekarang akan proaktif mengedukasi pengguna tentang proses riset kata kunci (Google Suggestion, PAA, Ahrefs, Ubersuggest) dan filter intent bisnis jika pengguna belum menentukan topik.
-
-### v1.3.0 (2026-10-09)
-- Penambahan jalan pintas *slash command* terpisah: `/ayo-seo-pilar`, `/ayo-seo-cluster`, dan `/ayo-seo-glossary` agar pengguna bisa mengeksekusi artikel secara instan tanpa perlu masuk ke mode tanya jawab awal.
-
-### v1.2.1 (2026-10-09)
-- Penambahan pengingat otomatis di awal chat agar pengguna memakai model **Gemini 3.1 Pro (High)** demi hasil tulisan dan penalaran yang maksimal.
-
-### v1.2.0 (2026-10-09)
-- Penambahan mode **Glossary** (Kamus Istilah) untuk melayani *search intent* definisi istilah dengan ringkas dan terfokus.
-
-### v1.1.0 (2026-10-09)
-- Penyelarasan penuh dengan **Google SEO Starter Guide**:
-  - Rekomendasi URL Slug bersih dan ringkas.
-  - Standarisasi Meta Title & Meta Description.
-  - Rekomendasi Gambar & Alt Text aksesibel.
-  - Teks tautan (Anchor text) deskriptif (anti teks generik "klik di sini").
-
-### v1.0.0 (2026-10-09)
-- Initial release
-- Skill `ayo-seo` dengan 2 mode: Pilar & Cluster
-- Rules AGENTS.md untuk karakter Senior SEO Specialist
-- Pedoman E-E-A-T, outbound link, GEO/AEO
-- Key Takeaways / TL;DR dan FAQ wajib di setiap artikel
-- Referensi artikel berkualitas dari Google Search Central
-- Gaya bahasa aku-kamu, humble, natural
-
-## Lisensi
-
+## 📄 Lisensi
 [MIT License](LICENSE)
-
