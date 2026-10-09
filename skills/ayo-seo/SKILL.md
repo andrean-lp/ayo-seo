@@ -40,9 +40,11 @@ Sebelum menulis satu baris pun artikel, lakukan tahap riset:
 ## 4. Format Wajib Output Artikel
 Setiap artikel yang dihasilkan harus memiliki anatomi lengkap berikut:
 
-### Bagian 1: Judul (H1) & Meta Info
-- **H1:** Menarik, memancing rasa ingin tahu, tidak clickbait murahan.
-- **Meta Title & Description:** Dioptimasi dengan target kata kunci dan CTR tinggi.
+### Bagian 1: Judul (H1) & Meta Info (Standar Google SEO Starter Guide)
+- **H1:** Menarik, memancing rasa ingin tahu, akurat merefleksikan isi, tidak clickbait murahan.
+- **URL Slug:** Singkat, bersih, huruf kecil, dipisahkan tanda hubung (`-`), mencerminkan topik utama tanpa kata mubazir.
+- **Meta Title:** 50–60 karakter, memuat intent utama, memikat untuk diklik di SERP.
+- **Meta Description:** 130–155 karakter, ringkasan akurat tanpa keyword stuffing, memiliki ajakan membaca yang jelas.
 - **Target Mode:** Pilar atau Cluster.
 
 ### Bagian 2: Key Takeaways / TL;DR (Wajib untuk GEO & AEO)
@@ -57,7 +59,10 @@ Posisikan tepat setelah intro singkat:
 
 ### Bagian 3: Isi Pembahasan Utama (H2 & H3)
 - Penjelasan step-by-step dengan sudut pandang *Experience* dan *Expertise*.
+- Gunakan hierarki heading yang logis (H2 untuk subtopik utama, H3 untuk rincian).
 - Gunakan analogi sederhana, tabel perbandingan, atau checklist praktis.
+- **Teks Link (Anchor Text) Deskriptif:** Sesuai Google Starter Guide, gunakan kata-kata yang menjelaskan tujuan halaman tujuan secara jelas. ❌ JANGAN gunakan "klik di sini", "baca ini", "sumber", atau URL mentah.
+- **Rekomendasi Gambar & Alt Text:** Berikan rekomendasi ide visual pendukung lengkap dengan deskripsi `alt text` yang kontekstual dan membantu aksesibilitas.
 - Terapkan **Outbound Link Dofollow** ke sumber internasional terpercaya secara alami pada anchor text yang relevan.
 
 ### Bagian 4: Rekomendasi Internal Linking

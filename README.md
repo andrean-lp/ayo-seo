@@ -74,13 +74,16 @@ ayo-seo/
 
 ## Pedoman Kualitas Artikel (Ringkasan)
 
-Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content):
+Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) dan [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide):
 
-1. **People-First Content** — Konten untuk manusia, bukan manipulasi ranking
-2. **E-E-A-T** — Experience, Expertise, Authoritativeness, Trustworthiness
-3. **Information Gain** — Nilai tambah yang belum ada di artikel kompetitor
-4. **Outbound Link** — Dofollow hanya untuk sitasi editorial ke sumber kredibel internasional; nofollow/sponsored untuk link afiliasi atau barter
-5. **GEO/AEO Ready** — Key Takeaways dan FAQ agar konten mudah dikutip oleh AI Search
+1. **People-First Content** — Konten dibuat terutama untuk membantu manusia, bukan sekadar memanipulasi algoritma pencarian.
+2. **E-E-A-T** — Experience, Expertise, Authoritativeness, Trustworthiness.
+3. **Information Gain** — Memberikan nilai tambah, perspektif baru, dan data yang belum ada di artikel kompetitor.
+4. **Anchor Text Deskriptif** — Teks tautan menjelaskan tujuan halaman secara alami; hindari teks generik ("klik di sini").
+5. **Aksesibilitas & Gambar** — Sertakan ide gambar kontekstual dengan deskripsi `alt text` yang relevan.
+6. **Struktur URL & Meta Snippet** — URL slug bersih/ringkas, meta title menarik (50–60 karakter), dan meta description informatif (130–155 karakter).
+7. **Outbound Link Kredibel** — Dofollow hanya untuk sitasi editorial ke sumber otoritatif internasional; nofollow/sponsored untuk link berbayar/afiliasi.
+8. **GEO/AEO Ready** — Key Takeaways dan FAQ Schema agar konten mudah dikutip oleh AI Search (Google AI Overviews, Perplexity, ChatGPT Search).
 
 ## Pedoman Outbound Link
 
@@ -97,6 +100,7 @@ Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/
 
 ## Sumber & Referensi
 
+- [Panduan Memulai SEO (Google SEO Starter Guide)](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=id)
 - [Creating Helpful, Reliable, People-First Content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 - [Google Search Essentials](https://developers.google.com/search/docs/essentials)
 - [Google's Guidance on AI-Generated Content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content)
@@ -108,10 +112,18 @@ Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/
 1. **Selalu berikan konteks niche/website kamu** saat meminta artikel — agent akan menyesuaikan tone dan sudut pandang
 2. **Mulai dari artikel pilar**, lalu bangun cluster articles di sekitarnya untuk topical authority
 3. **Review & edit hasil AI** — tambahkan pengalaman pribadi, studi kasus nyata, data internal untuk memperkuat E-E-A-T
-4. **Jangan publish massal** tanpa quality check — Google menghukum konten massal tanpa nilai tambah
-5. **Pasang FAQ Schema** di CMS kamu (Schema.org FAQPage) untuk meningkatkan peluang rich snippets
+4. **Gunakan slug & meta description** yang di-generate langsung ke form SEO CMS kamu
+5. **Pasang FAQ Schema** di CMS kamu (Schema.org FAQPage) untuk meningkatkan peluang rich snippets & AI Overview
+6. **Jangan publish massal** tanpa quality check — Google menghukum konten massal tanpa nilai tambah
 
 ## Changelog
+
+### v1.1.0 (2026-10-09)
+- Penyelarasan penuh dengan **Google SEO Starter Guide**:
+  - Rekomendasi URL Slug bersih dan ringkas.
+  - Standarisasi Meta Title & Meta Description.
+  - Rekomendasi Gambar & Alt Text aksesibel.
+  - Teks tautan (Anchor text) deskriptif (anti teks generik "klik di sini").
 
 ### v1.0.0 (2026-10-09)
 - Initial release
@@ -125,3 +137,4 @@ Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/
 ## Lisensi
 
 [MIT License](LICENSE)
+
