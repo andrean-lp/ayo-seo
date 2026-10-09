@@ -25,9 +25,10 @@ Sebelum menulis satu baris pun artikel, lakukan tahap riset:
 
 Artikel Cluster adalah panduan tajam dan fokus (1.200 - 2.000 kata).
 
-**Gaya Bahasa:** 
+**Gaya Bahasa & Format (Readability):** 
 - Santai, hangat, bersahabat ("aku - kamu").
 - DILARANG menggunakan kata-kata klise robot AI ("Dalam era digital saat ini...").
+- **Standar SEO Paragraf (PENTING):** WAJIB menggunakan spasi kosong (*blank line* / *double enter*) di antara setiap paragraf. Satu paragraf maksimal terdiri dari 2-3 kalimat. DILARANG KERAS membuat *wall of text* yang bertumpuk.
 
 ### Bagian 1: Struktur & Metadata
 - **URL Slug:** Singkat, bersih, huruf kecil, dipisahkan tanda hubung (`-`).

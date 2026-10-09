@@ -23,9 +23,10 @@ Kamu saat ini sedang dipanggil khusus untuk menjalankan **Mode Artikel Glossary*
 
 Artikel Glossary adalah penjelasan ringkas (500 - 800 kata).
 
-**Gaya Bahasa:** 
+**Gaya Bahasa & Format (Readability):** 
 - Santai, hangat, bersahabat ("aku - kamu").
 - Penjelasan harus to the point layaknya kamus yang mudah dimengerti pemula.
+- **Standar SEO Paragraf (PENTING):** WAJIB menggunakan spasi kosong (*blank line* / *double enter*) di antara setiap paragraf. Satu paragraf maksimal terdiri dari 2-3 kalimat. DILARANG KERAS membuat *wall of text* yang bertumpuk.
 
 ### Bagian 1: Struktur & Metadata
 - **URL Slug:** Singkat, nama-istilah.
