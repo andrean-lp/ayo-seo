@@ -12,14 +12,15 @@ Sistem ini dirancang untuk melakukan *Programmatic SEO* secara otomatis, aman, d
 - **Orchestrator:** Hermes / OpenClaw (Sebagai *Task Manager* dan *Executor*).
 - **LLM Engine:** **DeepSeek V4.1 Flash** (Dipilih karena kecepatan, efisiensi harga, dan kemampuan penalaran logis yang mumpuni untuk *intent* informasional).
 - **Target CMS:** Keystatic (Push otomatis ke Github Repo sebagai `.md` / `.mdx` files).
-- **Fokus Konten (Rekomendasi Default):** Sangat direkomendasikan agar sistem autopilot difokuskan 100% untuk **Artikel Cluster** (Informasional). Otomatisasi penuh untuk artikel Berita (*News*) atau *Review* komersial murni memiliki risiko penalti E-E-A-T yang tinggi tanpa *Human-in-the-Loop*.
+- **Fokus Konten (Sistem Keamanan Default):** Sistem autopilot di-kunci 100% untuk memproduksi **Artikel Cluster (Evergreen Content)**. Otomatisasi penuh untuk artikel Berita (*News*) atau *Review* komersial tanpa *Human-in-the-Loop* sangat rentan terkena penalti E-E-A-T dari Google. Oleh karena itu, batasan ini dibuat untuk melindungi metrik SEO pengguna.
 
 ## 2. Aturan Eksekusi (Best Practices)
 
-### Rule #1: Strategi Long-Tail Keyword (Min. 4 Kata)
-Agar otomatisasi menghasilkan trafik yang pasti (*high win-rate*), sangat direkomendasikan agar *Orchestrator* menyeleksi kata kunci turunan yang spesifik (minimal 4 kata). 
+### Rule #1: WAJIB Long-Tail Keyword (Min. 4 Kata)
+Agar otomatisasi menghasilkan trafik yang pasti dan relevan jangka panjang (*high win-rate*), *Orchestrator* **hanya diizinkan** mengeksekusi kata kunci spesifik dengan panjang minimal 4 kata. 
 - **Contoh Valid:** "cara riset keyword youtube shopping" (5 kata).
-*Alasan: Keyword 4+ kata memiliki search intent yang sangat jernih, sehingga model AI bisa menjawabnya secara akurat tanpa rentan halusinasi.*
+- **Contoh Ditolak:** "youtube shopping" (2 kata - terlalu luas, *intent* bias).
+*Alasan: Keyword 4+ kata memiliki search intent yang sangat jernih (informasional/edukasional). Membiarkan AI mengeksekusi keyword pendek (1-3 kata) secara massal akan menghasilkan konten "sampah" yang tidak relevan.*
 
 ### Rule #2: Struktur Artikel Cluster (DeepSeek Prompting)
 Ketika DeepSeek V4.1 Flash mengeksekusi *long-tail keyword*, wajib mengikuti kerangka ini:
