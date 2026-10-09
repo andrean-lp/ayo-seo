@@ -51,14 +51,19 @@ Agent akan otomatis:
 2. **Riset** — Search intent, entitas, nilai tambah
 3. **Generate** — Artikel lengkap dengan Key Takeaways, FAQ, outbound link, dan saran internal linking
 
-### Contoh Prompt
+### Daftar Slash Commands
 
-| Prompt | Mode |
-|--------|------|
-| `Buat artikel pilar komprehensif tentang SEO on-page` | Pilar |
-| `Buat artikel cluster tentang cara optimasi meta description` | Cluster |
-| `Buat artikel glossary yang menjelaskan apa itu Backlink` | Glossary |
-| `Riset topik dan struktur konten untuk "email marketing"` | Riset saja |
+Agent ini mendukung beberapa perintah cepat (*slash commands*) di kolom chat:
+
+| Command | Mode | Penjelasan |
+|---------|------|------------|
+| `/ayo-seo` | **General Router** | Akan menanyakan mode apa yang ingin kamu buat (Pilar/Cluster/Glossary) sebelum mengeksekusi artikel. |
+| `/ayo-seo-pilar` | **Pilar** | Jalan pintas untuk langsung mengeksekusi panduan Pilar komprehensif tanpa ditanya lagi. |
+| `/ayo-seo-cluster`| **Cluster** | Jalan pintas untuk langsung mengeksekusi artikel pendukung (Cluster) yang tajam & spesifik. |
+| `/ayo-seo-glossary`| **Glossary** | Jalan pintas untuk langsung mengeksekusi penjelasan definisi kamus istilah. |
+
+Contoh pemakaian jalan pintas:
+`/ayo-seo-pilar Buat panduan lengkap tentang SEO On-Page`
 
 ## Struktur Plugin
 
@@ -118,6 +123,9 @@ Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/
 6. **Jangan publish massal** tanpa quality check — Google menghukum konten massal tanpa nilai tambah
 
 ## Changelog
+
+### v1.3.0 (2026-10-09)
+- Penambahan jalan pintas *slash command* terpisah: `/ayo-seo-pilar`, `/ayo-seo-cluster`, dan `/ayo-seo-glossary` agar pengguna bisa mengeksekusi artikel secara instan tanpa perlu masuk ke mode tanya jawab awal.
 
 ### v1.2.1 (2026-10-09)
 - Penambahan pengingat otomatis di awal chat agar pengguna memakai model **Gemini 3.1 Pro (High)** demi hasil tulisan dan penalaran yang maksimal.
