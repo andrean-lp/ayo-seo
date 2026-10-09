@@ -54,6 +54,7 @@ Lalu, buatkan 1 paragraf contoh penempatan *anchor text* yang sangat natural (ta
 **💡 Kapan Artikel Cluster Butuh Outbound Link?**
 Beri edukasi singkat bahwa berbeda dengan Pilar, artikel Cluster tidak wajib dipaksakan memiliki *outbound link* eksternal (kecuali sedang mengutip sebuah data spesifik atau kutipan pakar). Fokus utama artikel Cluster adalah menahan pembaca agar membaca artikel internal (Pilar) kita yang lain!
 
-### Bagian 5: FAQ (Tanya Jawab) Berbasis Intent
+### Bagian 5: FAQ Berbasis Intent
 Sediakan 3 pertanyaan sempit yang sering dicari audiens terkait subtopik ini, beserta jawaban singkat.
+- **Judul Bagian:** WAJIB persis menggunakan *Heading 2* (H2) dengan teks: **Pertanyaan Yang Sering Diajukan (FAQ)**
 Tambahkan catatan instruksi: *"Jangan lupa pasang Schema JSON-LD `FAQPage` di CMS kamu untuk bagian ini."*

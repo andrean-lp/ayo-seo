@@ -51,6 +51,7 @@ Berikan penutup khusus dengan format berikut:
 Beri edukasi singkat (1-2 kalimat) bahwa artikel *Glossary* adalah titik masuk (*awareness*). Agar pengunjung tidak langsung pergi (*bounce*), istilah ini harus diarahkan (*internal link*) ke artikel Pilar atau Halaman Layanan/Penjualan utama.
 Lalu, buatkan 1 contoh paragraf sisipan dengan *anchor text* deskriptif yang natural untuk menuntun pembaca ke halaman tersebut.
 
-### Bagian 5: FAQ (Tanya Jawab) Berbasis Intent
+### Bagian 5: FAQ Berbasis Intent
 Sediakan 2-3 pertanyaan dasar yang paling sering membingungkan audiens terkait istilah ini.
+- **Judul Bagian:** WAJIB persis menggunakan *Heading 2* (H2) dengan teks: **Pertanyaan Yang Sering Diajukan (FAQ)**
 Tambahkan catatan instruksi: *"Jangan lupa pasang Schema JSON-LD `FAQPage` di CMS kamu untuk bagian ini."*

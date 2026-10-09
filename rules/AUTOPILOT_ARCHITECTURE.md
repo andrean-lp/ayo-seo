@@ -28,6 +28,7 @@ Agar hasil *generate* kompatibel dengan **SEMUA jenis CMS** (WordPress, Blogger,
 2. **Body (Step-by-Step):** Gunakan *bullet points* atau *numbered lists* standar.
 3. **Information Gain (Konteks Praktisi):** Sisipkan pola bahasa seperti *"Masalah umum yang sering terjadi adalah..."* untuk memberikan *vibe* pengalaman manusia.
 4. **FAQ Organik (Tanpa Schema):** Buat 3 pertanyaan turunan menggunakan format **Heading 3 (H3)** untuk pertanyaan, dan paragraf biasa untuk jawaban. (Google tetap bisa membacanya sebagai FAQ tanpa perlu kode JSON-LD).
+   - **PENTING:** Judul bagian ini WAJIB menggunakan H2 dengan teks persis: **Pertanyaan Yang Sering Diajukan (FAQ)**
 
 ### Rule #3: Internal Linking Dinamis (The Spider Web)
 Tugas utama *Autopilot* adalah memberi "makan" (otoritas) ke artikel Pilar milik pengguna.

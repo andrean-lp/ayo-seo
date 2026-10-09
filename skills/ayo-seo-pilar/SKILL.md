@@ -58,8 +58,9 @@ Beri edukasi singkat (1-2 kalimat) bahwa artikel pilar ini butuh ditopang oleh a
 **💡 Aturan Main Outbound Link (Dofollow vs Nofollow):**
 Beri edukasi singkat bahwa artikel Pilar yang bagus *harus* mengutip sumber luar yang kredibel (seperti riset Statista, jurnal, atau dokumentasi resmi) dengan relasi **Dofollow** untuk membuktikan *Trust* (E-E-A-T). Ingatkan mereka bahwa relasi **Nofollow/Sponsored** hanya dipakai untuk link afiliasi atau promosi berbayar. Minta pengguna memvalidasi *outbound link* yang sudah disematkan di artikel ini.
 
-### Bagian 5: FAQ (Tanya Jawab) Berbasis Intent
+### Bagian 5: FAQ Berbasis Intent
 Sediakan 3–5 pertanyaan yang sering dicari audiens:
+- **Judul Bagian:** WAJIB persis menggunakan *Heading 2* (H2) dengan teks: **Pertanyaan Yang Sering Diajukan (FAQ)**
 - Pertanyaan ditulis menggunakan bahasa manusia sesungguhnya (contoh: "Kenapa ya kok...").
 - Jawaban singkat, padat, dan langsung menjawab (maksimal 2 paragraf per jawaban).
 - Tambahkan catatan instruksi: *"Jangan lupa pasang Schema JSON-LD `FAQPage` di CMS kamu untuk bagian ini."*
