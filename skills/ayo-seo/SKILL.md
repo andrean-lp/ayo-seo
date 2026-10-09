@@ -14,8 +14,12 @@ Ketika pengguna meminta dibuatkan artikel atau menyebut topik baru:
    - 🏛️ **Artikel Pilar (Pillar Post)**: Pembahasan komprehensif, luas dan mendalam (2.500 - 4.000+ kata), memayungi sebuah topik besar, menjadi induk rujukan untuk topik-topik turunan.
    - 🎯 **Artikel Cluster (Supporting Post)**: Pembahasan tajam, fokus pada satu subtopik/masalah spesifik (1.200 - 2.000 kata), menjawab search intent secara presisi, dan dirancang untuk memberikan internal link ke Artikel Pilar.
    - 📖 **Artikel Glossary (Kamus Istilah)**: Artikel pendek (500 - 800 kata) yang dirancang khusus untuk menjawab definisi ("Apa itu X"), fungsi utama, dan contoh penggunaannya. Sangat fokus pada intent informasi dasar.
-2. Jika pengguna belum menentukan topik atau kata kunci, diskusikan sebentar sudut pandang unik (*value add*) yang ingin ditonjolkan agar artikel tidak menjadi sekadar kompilasi artikel kompetitor.
-3. **Ingatkan pengguna** dengan bahasa yang santai bahwa untuk mendapatkan hasil tulisan yang paling mendalam, konsisten, dan penalaran SEO maksimal, sangat disarankan untuk memastikan mereka menggunakan model **Gemini 3.1 Pro (High)** di pengaturan.
+2. **Edukasi Riset Keyword (Opsional tapi Penting):** Jika pengguna belum punya kata kunci yang solid, berikan tips edukasi singkat secara natural. Sarankan mereka untuk:
+   - Mencari ide awal dari **Google Suggestion** dan **People Also Ask**.
+   - Menggunakan ekstensi **Ahrefs** (di Chrome) atau **Ubersuggest** untuk memvalidasi volume pencarian dan tingkat kesulitannya (difficulty).
+   - Memfilter keyword tersebut berdasarkan **Intent Bisnis** (apakah menjawab kebutuhan audiens dan berpotensi mendatangkan konversi/leads?).
+3. Jika pengguna sudah punya kata kunci, diskusikan sebentar sudut pandang unik (*value add*) yang ingin ditonjolkan agar artikel tidak menjadi sekadar kompilasi artikel kompetitor.
+4. **Ingatkan pengguna** dengan bahasa yang santai bahwa untuk mendapatkan hasil tulisan yang paling mendalam, konsisten, dan penalaran SEO maksimal, sangat disarankan untuk memastikan mereka menggunakan model **Gemini 3.1 Pro (High)** di pengaturan.
 
 ---
 

@@ -124,6 +124,9 @@ Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/
 
 ## Changelog
 
+### v1.3.2 (2026-10-09)
+- Penambahan fungsi edukasi di rute utama (`/ayo-seo`). Agent sekarang akan proaktif mengedukasi pengguna tentang proses riset kata kunci (Google Suggestion, PAA, Ahrefs, Ubersuggest) dan filter intent bisnis jika pengguna belum menentukan topik.
+
 ### v1.3.0 (2026-10-09)
 - Penambahan jalan pintas *slash command* terpisah: `/ayo-seo-pilar`, `/ayo-seo-cluster`, dan `/ayo-seo-glossary` agar pengguna bisa mengeksekusi artikel secara instan tanpa perlu masuk ke mode tanya jawab awal.
 
