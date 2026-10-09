@@ -40,7 +40,7 @@ Tugas utama *Autopilot* adalah memberi "makan" (otoritas) ke artikel Pilar milik
 2. **[Validation]** Hitung jumlah kata. (Rekomendasi: Filter > 3 kata).
 3. **[Research]** Agent (opsional) melakukan *web scraping* kilat untuk mencari *angle* dari pencarian teratas.
 4. **[Generation]** DeepSeek V4.1 Flash memproduksi artikel *Cluster* menggunakan *Artifact rules*.
-5. **[Delivery]** Agent melakukan *commit* & *push* file `.md` ke repositori Github atau via API CMS yang digunakan pengguna.
+5. **[Delivery (Git-Based CMS)]** Karena targetnya adalah Git-based CMS (seperti **PagesCMS** atau **Keystatic**), sistem tidak perlu menggunakan REST API tradisional. *Orchestrator* cukup menggunakan **GitHub API** (atau perintah `git push` otomatis) untuk menyimpan file `.md` lengkap dengan *Frontmatter* (Judul, Tanggal, Kategori) langsung ke folder repositori Github pengguna (contoh: `/content/posts/`). Setelah di-*push*, PagesCMS akan otomatis membacanya!
 6. **[Loop]** Lanjut ke antrean *keyword* berikutnya.
 
 > **Catatan untuk Orchestrator Masa Depan:** 
