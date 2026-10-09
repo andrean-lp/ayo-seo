@@ -119,6 +119,9 @@ Berdasarkan panduan resmi [Google Search Central](https://developers.google.com/
 
 ## Changelog
 
+### v1.2.1 (2026-10-09)
+- Penambahan pengingat otomatis di awal chat agar pengguna memakai model **Gemini 3.1 Pro (High)** demi hasil tulisan dan penalaran yang maksimal.
+
 ### v1.2.0 (2026-10-09)
 - Penambahan mode **Glossary** (Kamus Istilah) untuk melayani *search intent* definisi istilah dengan ringkas dan terfokus.
 

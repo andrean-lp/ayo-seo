@@ -15,6 +15,7 @@ Ketika pengguna meminta dibuatkan artikel atau menyebut topik baru:
    - 🎯 **Artikel Cluster (Supporting Post)**: Pembahasan tajam, fokus pada satu subtopik/masalah spesifik (1.200 - 2.000 kata), menjawab search intent secara presisi, dan dirancang untuk memberikan internal link ke Artikel Pilar.
    - 📖 **Artikel Glossary (Kamus Istilah)**: Artikel pendek (500 - 800 kata) yang dirancang khusus untuk menjawab definisi ("Apa itu X"), fungsi utama, dan contoh penggunaannya. Sangat fokus pada intent informasi dasar.
 2. Jika pengguna belum menentukan topik atau kata kunci, diskusikan sebentar sudut pandang unik (*value add*) yang ingin ditonjolkan agar artikel tidak menjadi sekadar kompilasi artikel kompetitor.
+3. **Ingatkan pengguna** dengan bahasa yang santai bahwa untuk mendapatkan hasil tulisan yang paling mendalam, konsisten, dan penalaran SEO maksimal, sangat disarankan untuk memastikan mereka menggunakan model **Gemini 3.1 Pro (High)** di pengaturan.
 
 ---
 
