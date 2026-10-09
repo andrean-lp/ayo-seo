@@ -41,8 +41,11 @@ Posisikan tepat setelah intro singkat:
 - Dilarang wall of text.
 - Terapkan aturan Outbound Link Dofollow (hanya situs kredibel, anchor text deskriptif).
 
-### Bagian 4: Rekomendasi Internal Linking (Menuju Pilar)
-Tunjukkan contoh anchor text dan kalimat rekomendasi untuk mengarahkan pembaca kembali ke Artikel Pilar utama. (Misal: "Untuk panduan lengkapnya, kamu bisa baca di artikel pilar kami tentang [Nama Topik Pilar]").
+### Bagian 4: Edukasi & Rekomendasi Internal Linking (Menuju Pilar)
+Berikan penutup khusus dengan format berikut:
+**💡 Edukasi SEO: Jangan Lupakan Internal Link!**
+Beri edukasi singkat (1-2 kalimat) bahwa artikel Cluster ini WAJIB memberikan *link* kembali ke artikel Pilar untuk mengalirkan *PageRank* dan memperkuat hierarki *Topical Authority*.
+Lalu, buatkan 1 paragraf contoh penempatan *anchor text* yang sangat natural (tanpa kata "klik di sini") agar pengguna tinggal *copy-paste* ke dalam artikel CMS mereka.
 
 ### Bagian 5: FAQ (Tanya Jawab) Berbasis Intent
 Sediakan 3 pertanyaan sempit yang sering dicari audiens terkait subtopik ini, beserta jawaban singkat.

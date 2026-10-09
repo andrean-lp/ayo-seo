@@ -42,8 +42,11 @@ Struktur yang disarankan:
 - **H2: Contoh Penggunaan [Istilah]**
 Gunakan analogi atau perumpamaan jika istilahnya sangat teknis agar mudah dipahami orang awam.
 
-### Bagian 4: Rekomendasi Internal Linking
-Berikan contoh kalimat rekomendasi yang menyisipkan link menuju Artikel Pilar atau halaman Layanan Utama yang terkait dengan istilah tersebut. (Misal: "Jika kamu ingin mengoptimalkan [Istilah], baca panduan kami di [Link Pilar]").
+### Bagian 4: Edukasi & Rekomendasi Internal Linking (Jembatan Konversi)
+Berikan penutup khusus dengan format berikut:
+**💡 Edukasi SEO: Jembatan Konversi & Otoritas**
+Beri edukasi singkat (1-2 kalimat) bahwa artikel *Glossary* adalah titik masuk (*awareness*). Agar pengunjung tidak langsung pergi (*bounce*), istilah ini harus diarahkan (*internal link*) ke artikel Pilar atau Halaman Layanan/Penjualan utama.
+Lalu, buatkan 1 contoh paragraf sisipan dengan *anchor text* deskriptif yang natural untuk menuntun pembaca ke halaman tersebut.
 
 ### Bagian 5: FAQ (Tanya Jawab) Berbasis Intent
 Sediakan 2-3 pertanyaan dasar yang paling sering membingungkan audiens terkait istilah ini.
