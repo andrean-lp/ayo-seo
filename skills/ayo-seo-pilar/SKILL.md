@@ -46,8 +46,14 @@ Posisikan tepat setelah intro singkat:
   - Hanya sertakan jika mengutip referensi kredibel dunia (Google Developers, Statista, W3C, Forbes, dst.).
   - DILARANG menggunakan anchor text generik seperti "klik di sini". Anchor text harus mendeskripsikan secara jelas isi halaman yang dituju.
 
-### Bagian 4: Rekomendasi Internal Linking (Cluster)
-Berikan saran 3–5 topik artikel cluster yang harus dibuat dan dihubungkan ke artikel Pilar ini nantinya.
+### Bagian 4: Strategi Topical Authority (Rekomendasi Cluster)
+Untuk mengedukasi pengguna tentang pentingnya Topical Authority secara halus, berikan penutup khusus dengan format berikut di akhir artikel:
+
+**💡 Strategi Topical Authority: Langkah Selanjutnya**
+Berikan edukasi singkat (1-2 kalimat) bahwa artikel pilar ini butuh ditopang oleh artikel spesifik agar Google melihat website kita sebagai pakar di topik ini. Kemudian, berikan saran **3–5 judul artikel cluster** yang sangat relevan. 
+Tuliskan langsung format *slash command*-nya agar pengguna tinggal *copy-paste* untuk mengeksekusi artikel selanjutnya, contoh:
+- `/ayo-seo-cluster [Judul Saran 1]`
+- `/ayo-seo-cluster [Judul Saran 2]`
 
 ### Bagian 5: FAQ (Tanya Jawab) Berbasis Intent
 Sediakan 3–5 pertanyaan yang sering dicari audiens:
