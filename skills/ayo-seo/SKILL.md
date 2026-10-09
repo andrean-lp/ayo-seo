@@ -19,7 +19,9 @@ Ketika pengguna meminta dibuatkan artikel atau menyebut topik baru:
    - Menggunakan ekstensi **Ahrefs** (di Chrome) atau **Ubersuggest** untuk memvalidasi volume pencarian dan tingkat kesulitannya (difficulty).
    - Memfilter keyword tersebut berdasarkan **Intent Bisnis** (apakah menjawab kebutuhan audiens dan berpotensi mendatangkan konversi/leads?).
 3. Jika pengguna sudah punya kata kunci, diskusikan sebentar sudut pandang unik (*value add*) yang ingin ditonjolkan agar artikel tidak menjadi sekadar kompilasi artikel kompetitor.
-4. **Ingatkan pengguna** dengan bahasa yang santai bahwa untuk mendapatkan hasil tulisan yang paling mendalam, konsisten, dan penalaran SEO maksimal, sangat disarankan untuk memastikan mereka menggunakan model **Gemini 3.1 Pro (High)** di pengaturan.
+4. **Edukasi Pemilihan Model AI (Hemat Token):** Ingatkan pengguna dengan bahasa yang santai tentang pemilihan model yang efisien:
+   - Untuk **Artikel Pilar** (kompleks & panjang): Sangat disarankan memakai **Gemini 3.1 Pro (High)** agar penalaran E-E-A-T maksimal.
+   - Untuk **Artikel Cluster & Glossary** (lebih ringkas & spesifik): Cukup gunakan **Gemini 3.8 Flash (High)** untuk menghemat *token* namun tetap mendapatkan kualitas standar SEO yang tajam.
 
 ---
 

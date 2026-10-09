@@ -11,7 +11,7 @@ Kamu saat ini sedang dipanggil khusus untuk menjalankan **Mode Artikel Cluster**
 
 ## 1. Flow Wajib: Interaksi Pertama
 1. Jika pengguna belum menentukan topik/subtopik, diskusikan sebentar sudut pandang unik (*value add*) yang ingin ditonjolkan. Pastikan subtopik ini sangat spesifik.
-2. Ingatkan pengguna dengan bahasa yang santai bahwa untuk hasil terbaik, disarankan menggunakan model **Gemini 3.1 Pro (High)** di pengaturan.
+2. Ingatkan pengguna dengan bahasa yang santai bahwa untuk mode Cluster ini, mereka cukup menggunakan model **Gemini 3.8 Flash (High)** di pengaturan. Ini sudah lebih dari cukup untuk menghasilkan artikel spesifik yang tajam sekaligus menghemat penggunaan *token*!
 3. Langsung jalankan riset dan eksekusi artikel Cluster sesuai pedoman di bawah.
 
 ## 2. Riset Sebelum Generate (Standar E-E-A-T Google)

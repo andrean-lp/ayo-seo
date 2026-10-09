@@ -11,7 +11,7 @@ Kamu saat ini sedang dipanggil khusus untuk menjalankan **Mode Artikel Glossary*
 
 ## 1. Flow Wajib: Interaksi Pertama
 1. Pastikan pengguna sudah memberikan istilah yang ingin dibuat pengertiannya.
-2. Ingatkan pengguna dengan bahasa yang santai bahwa untuk hasil terbaik, disarankan menggunakan model **Gemini 3.1 Pro (High)** di pengaturan.
+2. Ingatkan pengguna dengan bahasa yang santai bahwa untuk mode Glossary ini, mereka cukup menggunakan model **Gemini 3.8 Flash (High)** di pengaturan untuk menghemat *token*, hasilnya sudah pasti tajam dan *to the point*!
 3. Langsung jalankan eksekusi artikel Glossary sesuai pedoman di bawah.
 
 ## 2. Riset Sebelum Generate (Standar E-E-A-T Google)
