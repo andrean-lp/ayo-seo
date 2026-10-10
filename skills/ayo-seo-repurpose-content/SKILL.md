@@ -55,7 +55,7 @@ Intisari untuk angle tersebut adalah:
 2. [Poin 2]
 3. [Poin 3]
 
-Tugasmu adalah mengubah intisari tersebut menjadi sebuah konten Carousel Instagram/LinkedIn sebanyak persis 6 Slide. 
+Tugas 1: Desain Konten Carousel (Persis 6 Slide)
 Untuk setiap slide, berikan:
 1. **Teks Copywriting:** Teks singkat, memikat, dan to-the-point untuk ditulis di dalam gambar.
 2. **Image Prompt (DALL-E 3):** Deskripsi prompt bahasa Inggris yang sangat detail untuk men-generate gambar background/ilustrasi slide tersebut. 
@@ -70,7 +70,12 @@ Struktur 6 Slide yang harus kamu ikuti:
 - Slide 5: Solusi inti 3 / Key Takeaway.
 - Slide 6: Call to Action (Ajakan untuk share, save, atau baca artikel lengkapnya).
 
-Berikan hasilnya dalam format yang rapi slide per slide.
+Tugas 2: Caption & Metadata SEO Sosmed
+Setelah merancang 6 slide di atas, berikan:
+1. **Caption Instagram (SEO-Friendly):** Buatkan caption yang menarik. Kalimat pertama wajib mengandung kata kunci (sebagai SEO title). Beri spasi yang nyaman dibaca, tambahkan CTA, dan akhiri dengan 5-7 hashtag yang relevan.
+2. **Saran Alt-Text IG:** Buatkan 1 kalimat padat kaya *keyword* untuk dimasukkan ke fitur "Write Alt Text" di pengaturan lanjutan Instagram saat pengguna memposting gambar ini.
+
+Berikan hasilnya dengan rapi.
 ```
 
 Akhiri pesanmu dengan menyarankan pengguna untuk menyalin prompt tersebut dan menempelkannya di ChatGPT (Plus/DALL-E) atau Midjourney/Bing Image Creator untuk langsung mendapatkan hasil visualnya.
