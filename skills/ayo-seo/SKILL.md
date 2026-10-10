@@ -55,9 +55,9 @@ Sebelum menulis satu baris pun artikel, lakukan tahap riset:
 Setiap artikel yang dihasilkan harus memiliki anatomi lengkap berikut:
 
 ### Bagian 1: Judul (H1) & Meta Info (Standar Google SEO Starter Guide)
-- **H1:** Menarik, memancing rasa ingin tahu, akurat merefleksikan isi, tidak clickbait murahan.
+- **H1:** Wajib menggunakan teknik **Hook Penasaran (Curiosity Gap)** yang relevan dan menggugah rasa ingin tahu pembaca, namun **DILARANG KERAS deceptive clickbait** (menipu/sensasional murahan). Janji atau pertanyaan di judul wajib dibahas tuntas di dalam isi artikel (*under-promise, over-deliver*).
 - **URL Slug:** Singkat, bersih, huruf kecil, dipisahkan tanda hubung (`-`), mencerminkan topik utama tanpa kata mubazir.
-- **Meta Title:** 50–60 karakter, memuat intent utama, memikat untuk diklik di SERP.
+- **Meta Title:** 50–60 karakter, memuat keyword utama, memikat untuk diklik di SERP (CTR tinggi), dan **WAJIB Title Case** (setiap awal kata huruf kapital).
 - **Meta Description:** 130–155 karakter, ringkasan akurat tanpa keyword stuffing, memiliki ajakan membaca yang jelas.
 - **Target Mode:** Pilar, Cluster, atau Glossary.
 
@@ -160,7 +160,7 @@ Sebelum menyerahkan artikel ke pengguna, verifikasi:
 - [ ] Artikel menjawab search intent yang ditargetkan.
 - [ ] Ada nilai tambah nyata (data, analisis, studi kasus, analogi) yang belum ada di kompetitor.
 - [ ] Fakta, angka, dan klaim sudah valid — sumber dicantumkan.
-- [ ] Judul H1 menarik, tidak clickbait, sesuai isi.
+- [ ] Judul H1 & Meta Title nge-hook memicu rasa penasaran (curiosity gap), anti-clickbait murahan, dan janjinya ditepati di isi artikel.
 - [ ] Key Takeaways / TL;DR tersedia (3–5 poin).
 - [ ] FAQ tersedia (3–5 pertanyaan berbasis search intent).
 - [ ] Outbound link dofollow hanya ke sumber internasional kredibel.

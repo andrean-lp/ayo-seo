@@ -44,11 +44,21 @@ Cantumkan identitas penulis jika relevan, profil yang menjelaskan latar
 belakangnya, serta informasi tentang website atau penerbit. Jangan
 membuat identitas maupun kredensial palsu.
 
-### 6. Judul jelas dan sesuai isi
+### 6. Judul jelas dan sesuai isi (Curiosity Gap vs. Deceptive Clickbait)
 
-Judul membantu pembaca memahami apa yang akan mereka dapatkan. Hindari
-judul sensasional atau janji yang tidak benar-benar dibahas dalam
-artikel.
+Judul membantu pembaca memahami apa yang akan mereka dapatkan sekaligus
+memancing ketertarikan mereka untuk mengklik (*Click-Through Rate / CTR*).
+- **Gunakan Curiosity Gap yang Etis:** Boleh dan dianjurkan menggunakan
+  *hook* yang memicu rasa penasaran alami (misalnya kontradiksi, studi
+  kasus riil, atau solusi atas kegelisahan pembaca).
+- **Hindari Deceptive Clickbait:** Jangan gunakan judul sensasional yang
+  menjanjikan hal fantastis tapi isinya zonk. Judul yang menipu memicu
+  *pogo-sticking* (pembaca langsung kabur kembali ke hasil pencarian),
+  yang merupakan sinyal buruk bagi *Google Helpful Content System*.
+- **Tepati Janji di Judul:** Seluruh janji atau pertanyaan yang dilempar
+  di judul wajib dikupas tuntas dan dijawab secara mendalam di dalam
+  konten (*under-promise, over-deliver*).
+
 
 ### 7. Pembahasannya memadai, bukan sekadar panjang
 

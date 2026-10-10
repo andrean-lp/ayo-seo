@@ -31,8 +31,9 @@ Artikel Cluster adalah panduan tajam dan fokus (1.200 - 2.000 kata).
 - **Standar SEO Paragraf (PENTING):** WAJIB menggunakan spasi kosong (*blank line* / *double enter*) di antara setiap paragraf. Satu paragraf maksimal terdiri dari 2-3 kalimat. DILARANG KERAS membuat *wall of text* yang bertumpuk.
 
 ### Bagian 1: Struktur & Metadata
+- **H1 (Judul Artikel):** Wajib menggunakan teknik **Hook Penasaran (Curiosity Gap)** yang tajam dan menggugah audiens sesuai subtopik spesifik. Dilarang clickbait murahan. Janji di judul wajib dijawab tuntas dalam artikel.
 - **URL Slug:** Singkat, bersih, huruf kecil, dipisahkan tanda hubung (`-`).
-- **Meta Title:** 50–60 karakter. **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
+- **Meta Title:** 50–60 karakter, memuat target keyword utama, memikat untuk diklik (CTR tinggi). **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
 - **Meta Description:** 130–155 karakter.
 
 ### Bagian 2: Key Takeaways / TL;DR (Wajib untuk GEO & AEO)

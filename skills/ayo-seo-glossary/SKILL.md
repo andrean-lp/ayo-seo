@@ -29,8 +29,9 @@ Artikel Glossary adalah penjelasan ringkas (500 - 800 kata).
 - **Standar SEO Paragraf (PENTING):** WAJIB menggunakan spasi kosong (*blank line* / *double enter*) di antara setiap paragraf. Satu paragraf maksimal terdiri dari 2-3 kalimat. DILARANG KERAS membuat *wall of text* yang bertumpuk.
 
 ### Bagian 1: Struktur & Metadata
+- **H1 (Judul Artikel):** Kemas judul istilah dengan hook yang memantik keingintahuan audiens pemula (contoh: bukan hanya "Apa Itu X?", melainkan "Apa Itu X? Definisi, Cara Kerja, dan Contoh Nyatanya"). Hindari sensasional palsu.
 - **URL Slug:** Singkat, nama-istilah.
-- **Meta Title:** 50–60 karakter (contoh: Apa itu [Istilah]? Definisi dan Fungsinya). **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
+- **Meta Title:** 50–60 karakter (contoh: Apa Itu [Istilah]? Panduan Lengkap Untuk Pemula). **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
 - **Meta Description:** 130–155 karakter, memuat ringkasan definisi 1 kalimat.
 
 ### Bagian 2: Key Takeaways / TL;DR (Wajib untuk GEO & AEO)

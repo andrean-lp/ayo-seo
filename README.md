@@ -1,7 +1,7 @@
 # Ayo SEO — AI Agent Senior SEO Content Specialist
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.4.0-blue.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.7.0-blue.svg)]()
 [![Platform](https://img.shields.io/badge/Platform-Antigravity-orange.svg)]()
 
 **Ayo SEO** adalah plugin (AI Agent) khusus untuk Antigravity yang dirancang agar bertindak sebagai **Senior SEO Content Strategist**. Plugin ini tidak sekadar menghasilkan teks layaknya robot, melainkan memikirkan strategi *Topical Authority*, meriset entitas semantik, dan mengeksekusi artikel berstandar **Google E-E-A-T** (Experience, Expertise, Authoritativeness, Trustworthiness) yang siap mendominasi pencarian Google dan AI Search (GEO/AEO).
@@ -108,21 +108,26 @@ cp -r ayo-seo ~/.gemini/config/plugins/ayo-seo
 
 Ayo SEO dilatih dengan aturan ketat dari [Google Search Essentials](https://developers.google.com/search/docs/essentials):
 
-1. **Anchor Text Deskriptif:** Dilarang keras menggunakan teks generik seperti "klik di sini", "baca selengkapnya". *Anchor text* harus mendeskripsikan secara jelas isi halaman tujuan.
-2. **Manajemen Outbound Link:**
+1. **Judul Nge-Hook Beretika (Curiosity Gap vs. Clickbait):** Judul (H1 dan Meta Title) wajib menggunakan *hook* yang memicu rasa ingin tahu alami audiens untuk mendongkrak CTR. Namun, dilarang keras *deceptive clickbait* murahan. Seluruh janji pada judul wajib dijawab tuntas dalam artikel untuk mencegah *pogo-sticking*.
+2. **Anchor Text Deskriptif:** Dilarang keras menggunakan teks generik seperti "klik di sini", "baca selengkapnya". *Anchor text* harus mendeskripsikan secara jelas isi halaman tujuan.
+3. **Manajemen Outbound Link:**
    - ✅ **Dofollow:** Hanya untuk sitasi editorial ke sumber otoritatif (Jurnal, Statista, W3C, Google Developers).
    - ❌ **Nofollow/Sponsored:** Wajib digunakan untuk *link* afiliasi (misal: Shopee, Amazon) atau artikel bersponsor.
-3. **No Wall of Text:** Paragraf dijaga tetap pendek (2-3 kalimat per paragraf), menggunakan tabel, dan *bullet points* agar mudah di-*skim* oleh pembaca.
-4. **Information Gain Pertama:** AI diwajibkan untuk mencari *angle* atau sudut pandang baru yang belum dibahas oleh kompetitor di Halaman 1 Google.
+4. **No Wall of Text:** Paragraf dijaga tetap pendek (2-3 kalimat per paragraf), menggunakan spasi ganda, tabel, dan *bullet points* agar mudah di-*skim* oleh pembaca.
+5. **Information Gain Pertama:** AI diwajibkan untuk mencari *angle* atau sudut pandang baru yang belum dibahas oleh kompetitor di Halaman 1 Google.
 
 ---
 
 ## 📝 Changelog Terbaru
 
-- **v1.4.0 (2026-10-09):** Perombakan besar-besaran dokumentasi (README.md) menjadi *Playbook* komprehensif. Penegasan *positioning* untuk Website, YouTube, dan Affiliate.
-- **v1.3.6:** Penambahan fitur edukasi keberadaan *Slash Commands* di rute utama `/ayo-seo`.
-- **v1.3.5:** Penambahan edukasi dinamis untuk penghematan token (Rekomendasi *Gemini 3.8 Flash* untuk Cluster/Glossary).
-- **v1.3.4:** Penambahan *Pojok Edukasi SEO (Outbound & Internal Link)* di bagian penutup setiap artikel hasil *generate*.
+- **v1.7.0 (2026-10-10):** Standarisasi pembuatan judul artikel: wajib menggunakan teknik *Hook Penasaran (Curiosity Gap)* beretika untuk mendongkrak CTR di SERP, serta larangan keras *deceptive clickbait* murahan guna mencegah sinyal negatif *pogo-sticking* pada *Google Helpful Content System*.
+- **v1.6.3:** Standarisasi teks H2 bagian FAQ menjadi persis `Pertanyaan Yang Sering Diajukan (FAQ)` di seluruh rules.
+- **v1.6.2:** Penerapan aturan ketat jarak spasi paragraf dan panjang kalimat (anti *wall of text*).
+- **v1.6.1:** Format wajib *Title Case* untuk Meta Title di seluruh mode artikel.
+- **v1.6.0:** Dukungan integrasi API CMS untuk WordPress REST API dan Blogger API v3.
+- **v1.5.4:** Klarifikasi alur *Git-based delivery* untuk Keystatic dan PagesCMS.
+- **v1.4.0:** Perombakan dokumentasi menjadi SEO Playbook komprehensif.
+
 
 ## 📄 Lisensi
 [MIT License](LICENSE)

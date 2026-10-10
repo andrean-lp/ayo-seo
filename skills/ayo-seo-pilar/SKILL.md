@@ -32,8 +32,9 @@ Artikel Pilar adalah panduan komprehensif, luas, dan mendalam (2.500 - 4.000+ ka
 - **Standar SEO Paragraf (PENTING):** WAJIB menggunakan spasi kosong (*blank line* / *double enter*) di antara setiap paragraf. Satu paragraf maksimal terdiri dari 2-3 kalimat. DILARANG KERAS membuat *wall of text* yang bertumpuk.
 
 ### Bagian 1: Struktur & Metadata (Hanya Teks, Bukan Code Block)
+- **H1 (Judul Artikel):** Wajib menggunakan teknik **Hook Penasaran (Curiosity Gap)** beretika yang memancing rasa ingin tahu audiens secara alami. Dilarang keras *deceptive clickbait* murahan yang melebih-lebihkan/menipu. Janji di judul harus dikupas tuntas di dalam isi artikel (*under-promise, over-deliver*).
 - **URL Slug:** Singkat, bersih, huruf kecil, dipisahkan tanda hubung (`-`).
-- **Meta Title:** 50–60 karakter, memuat intent utama, memikat untuk diklik di SERP. **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
+- **Meta Title:** 50–60 karakter, memuat target keyword utama, memikat untuk diklik di SERP (CTR tinggi). **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
 - **Meta Description:** 130–155 karakter, ringkasan akurat tanpa keyword stuffing.
 
 ### Bagian 2: Key Takeaways / TL;DR (Wajib untuk GEO & AEO)
