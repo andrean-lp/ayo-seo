@@ -42,7 +42,8 @@ Posisikan tepat setelah intro singkat:
 
 ### Bagian 3: Konten Utama (Berbasis E-E-A-T)
 - Gunakan struktur Heading yang logis (H2, H3).
-- Dilarang wall of text.
+- **Dilarang wall of text.** Gunakan *bullet points*, *quote*, atau teks tebal pada *insight* penting untuk mempermudah *skimming*.
+- Berikan saran penempatan gambar/visual/infografis di sela-sela teks. Untuk setiap saran gambar, berikan **Alt Text** dan sertakan **Prompt DALL-E 3 siap salin** (dalam blok teks khusus/quote) berbahasa Inggris. Pastikan prompt mematuhi aturan mutlak: *Faceless illustration* (jika ada manusia) dan tanpa hewan.
 - Terapkan aturan Outbound Link Dofollow (hanya situs kredibel, anchor text deskriptif).
 
 ### Bagian Tambahan: Edukasi SEO & Rekomendasi Internal Link

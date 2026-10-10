@@ -48,7 +48,7 @@ Posisikan tepat setelah intro singkat:
 - Terapkan konsep **10x Pillar Page** (bahas setiap sub-topik secara mendalam di halaman yang sama) atau **Resource Pillar Page** (sebagai *Hub* sentral yang menavigasikan pembaca ke berbagai topik turunan).
 - Gunakan **struktur Heading yang logis (H2, H3, H4)**.
 - **Dilarang wall of text.** Pecah kejemuan mata dengan menggunakan *bullet points*, *quote*, teks **bold** pada insight penting, atau tabel perbandingan untuk mempermudah *skimming*.
-- Berikan saran penempatan gambar/visual (deskripsikan ide gambar/infografis yang relevan + Alt text deskriptif).
+- Berikan saran penempatan gambar/visual/infografis di sela-sela teks. Untuk setiap saran gambar, berikan **Alt Text** dan sertakan **Prompt DALL-E 3 siap salin** (dalam blok teks khusus/quote) berbahasa Inggris. Pastikan prompt mematuhi aturan mutlak: *Faceless illustration* (jika ada manusia) dan tanpa hewan.
 - Terapkan **aturan Outbound Link Dofollow:**
   - Hanya sertakan jika mengutip referensi kredibel dunia (Google Developers, Statista, W3C, Forbes, dst.).
   - DILARANG menggunakan anchor text generik seperti "klik di sini". Anchor text harus mendeskripsikan secara jelas isi halaman yang dituju.
