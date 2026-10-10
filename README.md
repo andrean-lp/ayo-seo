@@ -103,14 +103,14 @@ Agar konten yang diproduksi Ayo SEO mudah dikutip dan direferensikan oleh mesin 
 Ayo SEO tidak hanya dirancang untuk penulisan manual via chat, melainkan disiapkan penuh untuk ekosistem **Autonomous Agentic Orchestrator** (seperti **Hermes** atau **OpenClaw**) jika kamu ingin menjalankan mesin *Programmatic SEO* tanpa pengawasan manusia (*autopilot*) di masa depan.
 
 ```mermaid
-flowchart LR
-    A["CSV / DB Keywords"] --> B["Orchestrator (Hermes / OpenClaw)"]
-    B --> C{"Filter >= 4 Kata"}
-    C -->|Valid| D["LLM Engine (DeepSeek V4.1 Flash)"]
-    C -->|Tolak < 4 Kata| B
-    D --> E["Universal Markdown Generator"]
-    E --> F["Dynamic Internal Link Injection"]
-    F --> G["CMS Delivery (Git / WP / Blogger API)"]
+flowchart TD
+    A["📁 CSV / Database Keywords"] --> B["🤖 Orchestrator (Hermes / OpenClaw)"]
+    B --> C{"🔍 Validasi Panjang Kata"}
+    C -->|Lolos: Min. 4 Kata| D["⚡ LLM Engine (DeepSeek V4.1 Flash)"]
+    C -->|Tolak: Kurang dari 4 Kata| B
+    D --> E["📝 Universal Markdown Generator"]
+    E --> F["🔗 Dynamic Internal Link Injection"]
+    F --> G["🚀 CMS Delivery (Git / WP / Blogger API)"]
 ```
 
 ### 1. The Autopilot Stack
