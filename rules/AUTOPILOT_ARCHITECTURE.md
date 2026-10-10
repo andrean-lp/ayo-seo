@@ -10,8 +10,10 @@ Dokumen ini dirancang **KHUSUS** untuk dibaca oleh *Automated Agentic Orchestrat
 Sistem ini dirancang untuk melakukan *Programmatic SEO* secara otomatis, aman, dan meminimalkan risiko penalti dari Google.
 
 - **Orchestrator:** Hermes / OpenClaw (Sebagai *Task Manager* dan *Executor*).
-- **LLM Engine:** **DeepSeek V4.1 Flash** (Dipilih karena kecepatan, efisiensi harga, dan kemampuan penalaran logis yang mumpuni untuk *intent* informasional).
-- **Target CMS:** Keystatic (Push otomatis ke Github Repo sebagai `.md` / `.mdx` files).
+- **API Gateway (Proxy):** **Appverse.id** atau AI Gateway lokal sejenis. (Sangat direkomendasikan untuk *developer* Indonesia karena mendukung sistem pembayaran lokal seperti QRIS/GoPay tanpa perlu kartu kredit internasional).
+- **LLM Engine (Text/Brain):** **DeepSeek** (Diakses via API Gateway di atas. Dipilih karena kecepatan, harga super efisien, dan penalaran SEO yang tajam).
+- **Image Engine (Renderer):** Model *Image Generator* (seperti Flux.1, Stable Diffusion, atau DALL-E) yang didukung oleh API Gateway (Appverse). Digunakan untuk men-*generate* Cover Artikel secara otomatis dari prompt buatan DeepSeek.
+- **Target CMS:** Keystatic, WordPress, atau PagesCMS.
 - **Fokus Konten (Sistem Keamanan Default):** Sistem autopilot di-kunci 100% untuk memproduksi **Artikel Cluster (Evergreen Content)**. Otomatisasi penuh untuk artikel Berita (*News*) atau *Review* komersial tanpa *Human-in-the-Loop* sangat rentan terkena penalti E-E-A-T dari Google. Oleh karena itu, batasan ini dibuat untuk melindungi metrik SEO pengguna.
 
 ## 2. Aturan Eksekusi (Best Practices)
@@ -40,12 +42,13 @@ Tugas utama *Autopilot* adalah memberi "makan" (otoritas) ke artikel Pilar milik
 1. **[Trigger]** Sistem membaca *CSV/Database* berisi daftar *long-tail keywords*.
 2. **[Validation]** Hitung jumlah kata. (Rekomendasi: Filter > 3 kata).
 3. **[Research]** Agent (opsional) melakukan *web scraping* kilat untuk mencari *angle* dari pencarian teratas.
-4. **[Generation]** DeepSeek V4.1 Flash memproduksi artikel *Cluster* menggunakan *Artifact rules*.
-5. **[Delivery (CMS Integration)]** Sistem *Orchestrator* harus dikonfigurasi untuk mengirimkan hasil *Markdown* ke CMS target pengguna. Tiga metode yang paling direkomendasikan:
-   - **Git-Based (PagesCMS / Keystatic):** *Orchestrator* menggunakan GitHub API untuk langsung melakukan `git push` file `.md` ke folder repositori target.
-   - **WordPress REST API:** *Orchestrator* mengubah struktur Markdown ke HTML (jika diperlukan) lalu mem-posting menggunakan endpoint `POST /wp-json/wp/v2/posts` menggunakan *Application Password*.
-   - **Blogger API v3:** *Orchestrator* mem-posting artikel menggunakan Google Blogger API (endpoint `POST /v3/blogs/{blogId}/posts`).
-6. **[Loop]** Lanjut ke antrean *keyword* berikutnya.
+4. **[Text Generation (Brain)]** DeepSeek memproduksi artikel *Cluster* (Markdown) beserta *Prompt Cover Image*.
+5. **[Image Generation (Renderer)]** Orchestrator mengirimkan *Prompt Cover* ke *Image Engine* (lewat Appverse) untuk di-render menjadi file gambar (WebP/PNG).
+6. **[Delivery (CMS Integration)]** Sistem *Orchestrator* menggabungkan teks Markdown dan file gambar, lalu mengirimkannya ke CMS target. Tiga metode yang direkomendasikan:
+   - **Git-Based (PagesCMS / Keystatic):** *Orchestrator* langsung melakukan `git push` file `.md` dan gambar ke folder repositori target.
+   - **WordPress REST API:** *Orchestrator* me- *upload* media gambar dahulu, mengikat URL-nya ke HTML artikel, lalu mem-posting menggunakan endpoint `POST /wp-json/wp/v2/posts`.
+   - **Blogger API v3:** Mem-posting menggunakan Google Blogger API.
+7. **[Loop]** Lanjut ke antrean *keyword* berikutnya.
 
 > **Catatan untuk Orchestrator Masa Depan:** 
 > Saat kamu (AI) dibangunkan untuk membaca *repository* ini, pastikan kamu menggunakan *DeepSeek V4.1 Flash* dan jalankan secara presisi sesuai dengan parameter di atas. Fokus pada volume (*Programmatic*) namun tetap mempertahankan struktur SEO tinggi!
