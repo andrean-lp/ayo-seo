@@ -16,7 +16,16 @@ Saat pengguna memanggil mode ini, tugasmu adalah membuatkan sebuah **Prompt Chat
    - Jika di *history* percakapan sebelumnya kamu baru saja membuat artikel (Pilar atau Cluster), gunakan artikel tersebut sebagai bahan dasar.
    - Jika tidak ada artikel di *history*, mintalah pengguna untuk memberikan tautan atau teks artikel yang ingin di-repurpose.
 
-2. **Ekstraksi Intisari (TL;DR)**:
+2. **Tanyakan Gaya Ilustrasi (Interaktif)**:
+   - Sebelum merakit prompt, kamu **WAJIB** menggunakan *tool* `ask_question` untuk menawarkan pilihan gaya ilustrasi kepada pengguna.
+   - Berikan opsi berikut (dan izinkan opsi lain jika mereka mau):
+     - "3D Clay Style (ala Storiq)"
+     - "Modern Minimalist Vector"
+     - "Isometric 3D"
+     - "Realistic Photography"
+     - "Neon / Cyberpunk Art"
+
+3. **Ekstraksi Intisari (TL;DR)**:
    - Ambil 3-4 poin utama dari artikel tersebut.
    - Siapkan alur cerita 6 slide:
      - **Slide 1:** Hook / Judul Utama (Memancing penasaran).
@@ -26,12 +35,12 @@ Saat pengguna memanggil mode ini, tugasmu adalah membuatkan sebuah **Prompt Chat
      - **Slide 5:** Solusi / Poin 3 atau Kesimpulan.
      - **Slide 6:** Call to Action (CTA - "Save post ini", "Baca selengkapnya di blog", dll).
 
-3. **Generate Prompt untuk Pengguna**:
+4. **Generate Prompt untuk Pengguna**:
    - Kamu **tidak** membuat gambar atau menulis konten carousel secara langsung di chat ini.
    - Tugasmu adalah **merakit sebuah Prompt Master** yang akan dicopy oleh pengguna dan dipaste ke ChatGPT (DALL-E 3) atau Claude/Gemini.
    - Prompt tersebut harus menginstruksikan AI (ChatGPT) untuk:
      a) Menuliskan Teks Copywriting untuk 6 slide tersebut (berdasarkan intisari artikel).
-     b) Membuat Image Generation Prompt (seperti DALL-E 3 prompt) bergaya ilustrasi tertentu (contoh: *3D clay illustration, modern minimalist, flat vector*) untuk setiap slide.
+     b) Membuat Image Generation Prompt berdasarkan gaya yang **dipilih oleh pengguna** di langkah 2.
 
 ## Format Output yang Harus Kamu Berikan ke Pengguna
 
@@ -51,7 +60,7 @@ Intisari dari artikel tersebut adalah:
 Tugasmu adalah mengubah intisari tersebut menjadi sebuah konten Carousel Instagram/LinkedIn sebanyak persis 6 Slide. 
 Untuk setiap slide, berikan:
 1. **Teks Copywriting:** Teks singkat, memikat, dan to-the-point untuk ditulis di dalam gambar.
-2. **Image Prompt (DALL-E 3):** Deskripsi prompt bahasa Inggris yang sangat detail untuk men-generate gambar background/ilustrasi slide tersebut. Gunakan gaya desain: "Modern 3D clay style illustration, vibrant colors, clean minimal background, highly detailed, 4k resolution".
+2. **Image Prompt (DALL-E 3):** Deskripsi prompt bahasa Inggris yang sangat detail untuk men-generate gambar background/ilustrasi slide tersebut. Gunakan gaya desain: "[GAYA ILUSTRASI PILIHAN PENGGUNA], vibrant colors, clean minimal background, highly detailed, 4k resolution".
 
 Struktur 6 Slide yang harus kamu ikuti:
 - Slide 1: Hook / Judul yang memicu rasa penasaran (Curiosity Gap).
