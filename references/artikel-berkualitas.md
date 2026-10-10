@@ -16,9 +16,7 @@ menilai relevansi dan kegunaan halaman.
 
 ### 1. Menjawab kebutuhan pembaca secara tuntas
 
-Artikel memahami apa yang ingin diketahui atau diselesaikan pembaca.
-Setelah membaca, mereka mendapatkan jawaban yang memadai dan tidak perlu
-mencari informasi dasar yang sama di tempat lain.
+Artikel benar-benar memahami apa yang ingin diketahui atau diselesaikan pembaca (berdasarkan *Target Persona* yang jelas). Setelah membaca, mereka mendapatkan jawaban yang memadai dan tidak perlu mencari informasi dasar yang sama di tempat lain. Untuk konten landasan (*pillar content*), sangat disarankan membidik topik yang bersifat *evergreen* (selalu relevan sepanjang waktu dan bukan tren sesaat).
 
 ### 2. Memiliki informasi orisinal dan nilai tambah
 
@@ -138,6 +136,7 @@ pengguna, bukan rumus yang menjamin ranking.
 -   [ ] Identitas penulis dan informasi penerbit jelas jika relevan.
 -   [ ] Artikel relevan dengan fokus utama website.
 -   [ ] Tautan internal dan referensi membantu pembaca.
+-   [ ] Struktur visual memecah kejemuan (*bullet*, tabel, *quote*). Untuk artikel panjang, Daftar Isi (*Table of Contents*) tersedia.
 -   [ ] Halaman dapat digunakan dengan baik di perangkat mobile.
 
 Checklist ini adalah alat editorial praktis, bukan skor resmi Google.

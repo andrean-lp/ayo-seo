@@ -16,9 +16,10 @@ Kamu saat ini sedang dipanggil khusus untuk menjalankan **Mode Artikel Pilar**.
 
 ## 2. Riset Sebelum Generate (Standar E-E-A-T Google)
 Sebelum menulis satu baris pun artikel, lakukan tahap riset:
-1. **Search Intent Matching:** Cari tahu apakah audiens butuh panduan teknis, studi kasus, perbandingan, atau pemecahan masalah langsung.
-2. **Entity & Semantic Mapping:** Tentukan entitas kunci agar mesin pencari mengenali topik secara holistik.
-3. **Analisis Nilai Tambah (Information Gain):** Tentukan apa hal baru yang belum ada di page 1 Google.
+1. **Persona & Topik Evergreen:** Validasi target market/persona audiens terlebih dahulu. Pastikan topik bersifat *evergreen* (pencarian stabil dan tidak musiman).
+2. **Search Intent Matching:** Cari tahu apakah audiens butuh panduan teknis, studi kasus, perbandingan, atau pemecahan masalah langsung.
+3. **Entity & Semantic Mapping:** Tentukan entitas kunci agar mesin pencari mengenali topik secara holistik.
+4. **Analisis Nilai Tambah (Information Gain):** Tentukan apa hal baru yang belum ada di page 1 Google.
 
 ## 3. Eksekusi Penulisan (Wajib Pakai Artifact)
 **PENTING UNTUK ANTIGRAVITY:** DILARANG mencetak hasil artikel (termasuk Meta Data dan Edukasi) langsung di jendela *chat*. Kamu WAJIB menggunakan *tool* `write_to_file` untuk menyimpannya sebagai **Artifact** (file markdown, misal: `artikel-pilar-[topik].md`) agar tidak terpotong oleh batasan token. Di chat, cukup berikan ringkasan singkat bahwa file sudah jadi.
@@ -43,9 +44,11 @@ Posisikan tepat setelah intro singkat:
 - Gunakan bahasa lugas dan berikan jawaban instan bagi pembaca (dan mesin AI) yang tidak punya banyak waktu.
 
 ### Bagian 3: Konten Utama (Berbasis E-E-A-T)
+- **Daftar Isi (Table of Contents):** Mengingat panjangnya artikel pilar, WAJIB sediakan Daftar Isi di awal artikel dengan *Anchor Links* (contoh: `[Judul Sub](#judul-sub)`) untuk memudahkan navigasi UX.
+- Terapkan konsep **10x Pillar Page** (bahas setiap sub-topik secara mendalam di halaman yang sama) atau **Resource Pillar Page** (sebagai *Hub* sentral yang menavigasikan pembaca ke berbagai topik turunan).
 - Gunakan **struktur Heading yang logis (H2, H3, H4)**.
-- **Dilarang wall of text.** Gunakan paragraf pendek, *bullet points*, atau tabel untuk mempermudah *skimming*.
-- Berikan saran penempatan gambar/visual (deskripsikan ide gambar yang relevan + Alt text deskriptif).
+- **Dilarang wall of text.** Pecah kejemuan mata dengan menggunakan *bullet points*, *quote*, teks **bold** pada insight penting, atau tabel perbandingan untuk mempermudah *skimming*.
+- Berikan saran penempatan gambar/visual (deskripsikan ide gambar/infografis yang relevan + Alt text deskriptif).
 - Terapkan **aturan Outbound Link Dofollow:**
   - Hanya sertakan jika mengutip referensi kredibel dunia (Google Developers, Statista, W3C, Forbes, dst.).
   - DILARANG menggunakan anchor text generik seperti "klik di sini". Anchor text harus mendeskripsikan secara jelas isi halaman yang dituju.
