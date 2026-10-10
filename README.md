@@ -98,18 +98,65 @@ Agar konten yang diproduksi Ayo SEO mudah dikutip dan direferensikan oleh mesin 
 
 ---
 
-## 🤖 Integrasi API CMS & Skema Autopilot
+## 🤖 Arsitektur Autopilot & Programmatic SEO (Blueprint Hermes / OpenClaw)
 
-Output Ayo SEO menggunakan arsitektur *Universal Markdown* yang siap diintegrasikan ke sistem publikasi modern maupun ekosistem *Autonomous Agent* (seperti OpenClaw atau Hermes):
+Ayo SEO tidak hanya dirancang untuk penulisan manual via chat, melainkan disiapkan penuh untuk ekosistem **Autonomous Agentic Orchestrator** (seperti **Hermes** atau **OpenClaw**) jika kamu ingin menjalankan mesin *Programmatic SEO* tanpa pengawasan manusia (*autopilot*) di masa depan.
 
-1. **Git-Based CMS (Keystatic / PagesCMS):**  
-   Pengiriman otomatis via **GitHub API** untuk push file `.md` langsung ke repository. Bersih, ter-versi (*version-controlled*), dan aman tanpa database rentan.
-2. **WordPress (WP REST API):**  
-   Kompatibel untuk posting langsung ke endpoint `POST /wp-json/wp/v2/posts` menggunakan *Application Password*.
-3. **Google Blogger (Blogger API v3):**  
-   Mendukung pengiriman massal ke blog dummy / PBN via endpoint `POST /v3/blogs/{blogId}/posts`.
+```mermaid
+flowchart LR
+    A["CSV / DB Keywords"] --> B["Orchestrator (Hermes / OpenClaw)"]
+    B --> C{"Filter >= 4 Kata"}
+    C -->|Valid| D["LLM Engine (DeepSeek V4.1 Flash)"]
+    C -->|Tolak < 4 Kata| B
+    D --> E["Universal Markdown Generator"]
+    E --> F["Dynamic Internal Link Injection"]
+    F --> G["CMS Delivery (Git / WP / Blogger API)"]
+```
 
-> Pelajari arsitektur otomatisasi penuh pada dokumen [rules/AUTOPILOT_ARCHITECTURE.md](rules/AUTOPILOT_ARCHITECTURE.md).
+### 1. The Autopilot Stack
+- **Agentic Orchestrator:** Hermes / OpenClaw (sebagai *task manager* dan *runner* antrean).
+- **LLM Engine:** **DeepSeek V4.1 Flash** (dipilih karena kecepatan ekstrem, biaya token super hemat, dan penalaran logis tajam untuk *search intent* informasional).
+- **Target CMS:** Keystatic, PagesCMS, WordPress, atau Blogger.
+- **Sistem Keamanan Default (Anti-Penalti):** Sistem autopilot di-kunci 100% untuk memproduksi **Artikel Cluster (Evergreen Content)** saja. Otomatisasi penuh untuk artikel berita (*news*) atau review komersial tanpa *Human-in-the-Loop* berisiko tinggi terkena penalti E-E-A-T Google, sehingga pembatasan ini dibuat untuk menjaga integritas domainmu.
+
+---
+
+### 2. Tiga Aturan Emas Eksekusi (Execution Guardrails)
+
+#### 🛡️ Rule #1: WAJIB Long-Tail Keyword (Minimal 4 Kata)
+Agar otomatisasi menghasilkan trafik yang pasti dan terhindar dari bias intent, *Orchestrator* **hanya boleh** mengeksekusi keyword dengan panjang minimal 4 kata:
+- ✅ **Valid:** `"cara riset keyword youtube shopping"` (5 kata).
+- ❌ **Ditolak:** `"youtube shopping"` (2 kata — terlalu luas dan ambigu).
+*Alasan: Keyword 4+ kata memiliki search intent yang sangat jernih (informasional/edukasional), sehingga AI tidak memproduksi konten "sampah" yang tidak relevan.*
+
+#### 🛡️ Rule #2: Struktur Universal Markdown
+DeepSeek V4.1 Flash menghasilkan format Markdown murni yang kompatibel dengan **SEMUA jenis CMS** tanpa dependensi custom code:
+1. **Paragraf 1 (TL;DR Organik):** Langsung menyajikan jawaban instan dalam teks tebal (*bold*) sebagai umpan *Featured Snippets* (tanpa kalimat pembuka klise).
+2. **Body (Step-by-Step):** Menggunakan *bullet points* atau *numbered list* standar.
+3. **Information Gain (Konteks Praktisi):** Menyisipkan pola bahasa pengalaman manusia (*"Masalah umum yang sering terjadi di lapangan adalah..."*).
+4. **FAQ Organik:** 3 pertanyaan turunan menggunakan format H3, dengan H2 wajib bertuliskan persis: **Pertanyaan Yang Sering Diajukan (FAQ)**.
+
+#### 🛡️ Rule #3: Internal Linking Dinamis (The Spider Web)
+Tugas utama mesin autopilot adalah mengalirkan otoritas (*PageRank*) ke Artikel Pilar:
+- Di akhir setiap artikel cluster otomatis, Agent wajib menyisipkan paragraf *call-to-action* (CTA) natural.
+- CTA ini memuat *Internal Link* menuju Artikel Pilar target.
+- **Konfigurasi URL Dinamis:** URL pilar **TIDAK BOLEH di-hardcode**. Orchestrator menyuplai URL target secara dinamis (*prompt parameter injection*) saat antrean dieksekusi.
+
+---
+
+### 3. Alur Kerja Eksekusi 6 Langkah (Execution Flow)
+
+1. **[Trigger]** Sistem membaca file `CSV` atau database berisi daftar ratusan *long-tail keywords*.
+2. **[Validation]** Orchestrator memvalidasi panjang kata (hanya memproses keyword > 3 kata).
+3. **[Research]** Agent (opsional) melakukan *web scraping* kilat untuk mengekstrak sudut pandang (*angle*) dari 3 hasil teratas SERP.
+4. **[Generation]** DeepSeek V4.1 Flash memproduksi artikel Cluster sesuai aturan *Universal Markdown*.
+5. **[Delivery / CMS Integration]** Mengirimkan hasil posting otomatis via 3 opsi integrasi:
+   - **Git-Based (PagesCMS / Keystatic):** Push otomatis file `.md` langsung ke repository GitHub menggunakan GitHub API.
+   - **WordPress REST API:** Posting otomatis ke endpoint `POST /wp-json/wp/v2/posts` via *Application Password*.
+   - **Google Blogger API v3:** Posting otomatis ke endpoint `POST /v3/blogs/{blogId}/posts`.
+6. **[Loop]** Orchestrator otomatis melanjutkan ke baris antrean keyword berikutnya.
+
+> Seluruh arsitektur ini juga terdokumentasi terpisah di file [rules/AUTOPILOT_ARCHITECTURE.md](rules/AUTOPILOT_ARCHITECTURE.md).
 
 ---
 
