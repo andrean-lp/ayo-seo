@@ -9,7 +9,7 @@ Dokumen ini dirancang **KHUSUS** untuk dibaca oleh *Automated Agentic Orchestrat
 ## 1. Arsitektur Sistem (The Stack)
 Sistem ini dirancang untuk melakukan *Programmatic SEO* secara otomatis, aman, dan meminimalkan risiko penalti dari Google.
 
-- **Orchestrator:** Hermes / OpenClaw (Sebagai *Task Manager* dan *Executor*).
+- **Orchestrator & Runner Host:** Hermes / OpenClaw yang dijalankan di **Sumopod.com** (Layanan Container/Cloud lokal ramah QRIS untuk *runtime* 24/7 atau *self-hosted worker*).
 - **API Gateway (Proxy):** **Appverse.id** atau AI Gateway lokal sejenis. (Sangat direkomendasikan untuk *developer* Indonesia karena mendukung sistem pembayaran lokal seperti QRIS/GoPay tanpa perlu kartu kredit internasional).
 - **LLM Engine (Text/Brain):** **DeepSeek** (Diakses via API Gateway di atas. Dipilih karena kecepatan, harga super efisien, dan penalaran SEO yang tajam).
 - **Image Engine (Renderer):** Model *Image Generator* (seperti Flux.1, Stable Diffusion, atau DALL-E) yang didukung oleh API Gateway (Appverse). Digunakan untuk men-*generate* Cover Artikel secara otomatis dari prompt buatan DeepSeek.
