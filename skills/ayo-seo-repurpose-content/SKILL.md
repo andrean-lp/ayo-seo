@@ -59,7 +59,7 @@ Tugasmu adalah mengubah intisari tersebut menjadi sebuah konten Carousel Instagr
 Untuk setiap slide, berikan:
 1. **Teks Copywriting:** Teks singkat, memikat, dan to-the-point untuk ditulis di dalam gambar.
 2. **Image Prompt (DALL-E 3):** Deskripsi prompt bahasa Inggris yang sangat detail untuk men-generate gambar background/ilustrasi slide tersebut. 
-   - Gunakan gaya desain: "[GAYA ILUSTRASI PILIHAN PENGGUNA], vibrant colors, clean minimal background, highly detailed, 4k resolution".
+   - Gunakan gaya desain: "[GAYA ILUSTRASI PILIHAN PENGGUNA], vibrant colors, clean minimal background, highly detailed, 4k resolution, aspect ratio 3:4 (Portrait)".
    - **ATURAN MUTLAK (SYARIAT COMPLIANT):** Jika prompt mengandung karakter manusia, WAJIB tambahkan instruksi tegas agar digambar dalam gaya "faceless illustration" (wajah kosong sepenuhnya: tanpa mata, tanpa alis, tanpa hidung, tanpa mulut). DILARANG KERAS menyertakan hewan jenis apa pun di dalam prompt.
 
 Struktur 6 Slide yang harus kamu ikuti:

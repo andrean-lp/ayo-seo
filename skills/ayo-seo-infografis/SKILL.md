@@ -54,7 +54,7 @@ Berikut adalah struktur teks singkat yang harus masuk ke dalam infografis:
 
 Tugasmu:
 Buatkan **Image Prompt (DALL-E 3)** yang sangat detail untuk men-generate infografis ini.
-- Gunakan gaya desain: "[GAYA ILUSTRASI PILIHAN PENGGUNA], vertical infographic layout, clean infographic typography, highly detailed, 4k resolution".
+- Gunakan gaya desain: "[GAYA ILUSTRASI PILIHAN PENGGUNA], vertical infographic layout, clean infographic typography, highly detailed, 4k resolution, aspect ratio 9:16 (Story/Vertical)".
 - **ATURAN MUTLAK (SYARIAT COMPLIANT):** Jika prompt mengandung karakter manusia, WAJIB tambahkan instruksi tegas agar digambar dalam gaya "faceless illustration" (wajah kosong sepenuhnya: tanpa mata, tanpa alis, tanpa hidung, tanpa mulut). DILARANG KERAS menyertakan hewan jenis apa pun di dalam prompt.
 
 Silakan generate gambar infografisnya sekarang.
