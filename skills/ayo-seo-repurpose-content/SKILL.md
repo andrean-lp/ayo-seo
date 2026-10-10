@@ -70,7 +70,7 @@ Tugas 1: Image Prompt (DALL-E 3 - Fokus pada Pertanyaan)
 Buatkan 1 desain prompt gambar. Gambar ini berfungsi sebagai *Hook* visual dan hanya boleh berisi teks pertanyaan TANPA jawaban.
 1. **Teks Copywriting di Gambar:** "[Buatkan Pertanyaan Singkat, Jelas, & Mengundang Rasa Ingin Tahu]"
 2. **Image Prompt (DALL-E 3):** Deskripsi prompt bahasa Inggris yang sangat detail.
-   - Gunakan gaya desain: "[GAYA ILUSTRASI PILIHAN PENGGUNA], bold typography layout, text focused, clean minimal background, 4k resolution, aspect ratio 4:5 (Portrait) atau 1:1".
+   - Gunakan gaya desain: "[GAYA ILUSTRASI PILIHAN PENGGUNA], bold typography layout, text focused, clean minimal background, 4k resolution, aspect ratio 3:4 (Portrait)".
    - **ATURAN MUTLAK (SYARIAT COMPLIANT):** Jika prompt mengandung manusia, WAJIB digambar dalam gaya "faceless illustration" (tanpa mata, alis, hidung, mulut). DILARANG KERAS menyertakan hewan.
 
 Tugas 2: Caption SEO (Fokus Jawaban Lengkap AEO)
