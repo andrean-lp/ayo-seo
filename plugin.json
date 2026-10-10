@@ -3,12 +3,13 @@
   "name": "ayo-seo",
   "displayName": "Ayo SEO",
   "description": "Senior SEO AI Agent untuk riset E-E-A-T mendalam, pembuatan artikel Pilar & Cluster, optimasi GEO/AEO, Key Takeaways, FAQ Schema, dan panduan outbound link dofollow aman.",
-  "version": "1.14.1",
+  "version": "1.15.0",
   "suggestedPrompts": [
     "Buat artikel pilar komprehensif tentang topik saya",
     "Buat artikel cluster pendukung dengan E-E-A-T dan FAQ",
     "Riset topik dan struktur konten untuk target Google & GEO/AEO",
     "Repurpose artikel menjadi carousel IG (/ayo-seo-repurpose-content)",
-    "Ubah artikel menjadi Infografis Website (/ayo-seo-infografis)"
+    "Ubah artikel menjadi Infografis Website (/ayo-seo-infografis)",
+    "Buat prompt untuk Cover Artikel Blog (/ayo-seo-cover)"
   ]
 }

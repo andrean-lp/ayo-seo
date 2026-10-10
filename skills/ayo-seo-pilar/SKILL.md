@@ -37,6 +37,7 @@ Artikel Pilar adalah panduan komprehensif, luas, dan mendalam (2.500 - 4.000+ ka
 - **URL Slug:** Singkat, bersih, huruf kecil, dipisahkan tanda hubung (`-`).
 - **Meta Title:** 50–60 karakter, memuat target keyword utama, memikat untuk diklik di SERP (CTR tinggi). **WAJIB Title Case (Setiap awal kata harus huruf Kapital, termasuk preposisi. Contoh: "Cara Analisis Fundamental Crypto Untuk Pemula").**
 - **Meta Description:** 130–155 karakter, ringkasan akurat tanpa keyword stuffing.
+- **Saran Prompt Cover Artikel (16:9):** Berikan 1 prompt DALL-E 3 siap salin (dalam blok quote/teks bahasa Inggris) untuk *Featured Image*. Wajib mematuhi aturan visual: rasio 16:9, gaya faceless (jika ada karakter manusia), dan dilarang menyertakan hewan maupun teks/tulisan di dalam gambar. (Jika artikel me-review produk fisik nyata, berikan catatan peringatan untuk menggunakan foto asli alih-alih AI).
 
 ### Bagian 2: Key Takeaways / TL;DR (Wajib untuk GEO & AEO)
 Posisikan tepat setelah intro singkat:
