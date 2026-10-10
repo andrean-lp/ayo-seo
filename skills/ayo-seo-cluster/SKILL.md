@@ -29,6 +29,7 @@ Artikel Cluster adalah panduan tajam dan fokus (1.200 - 2.000 kata).
 - Santai, hangat, bersahabat ("aku - kamu").
 - DILARANG menggunakan kata-kata klise robot AI ("Dalam era digital saat ini...").
 - **Standar SEO Paragraf (PENTING):** WAJIB menggunakan spasi kosong (*blank line* / *double enter*) di antara setiap paragraf. Satu paragraf maksimal terdiri dari 2-3 kalimat. DILARANG KERAS membuat *wall of text* yang bertumpuk.
+- **Standar Karakter Aman (Anti-Mojibake):** DILARANG memakai tanda strip panjang em-dash/en-dash (`—` atau `–`), selalu gunakan tanda hubung minus keyboard standar (`-` dengan spasi). DILARANG KERAS menyematkan emoji di dalam Heading (H1, H2, H3, H4) untuk mencegah karakter rusak (`â€“`, `â☒`, `???`) di CMS dan parser TOC. Gunakan tanda petik lurus standar (`"` dan `'`).
 
 ### Bagian 1: Struktur & Metadata
 - **H1 (Judul Artikel):** Wajib menggunakan teknik **Hook Penasaran (Curiosity Gap)** yang tajam dan menggugah audiens sesuai subtopik spesifik. Dilarang clickbait murahan. Janji di judul wajib dijawab tuntas dalam artikel.
