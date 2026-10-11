@@ -1,7 +1,7 @@
 # Ayo SEO — AI Agent Senior SEO & Content Strategist
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.20.0-blue.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.21.0-blue.svg)]()
 [![Platform](https://img.shields.io/badge/Platform-Antigravity-orange.svg)]()
 [![SEO Standard](https://img.shields.io/badge/Google-E--E--A--T%20%26%20Helpful%20Content-brightgreen.svg)]()
 [![Optimization](https://img.shields.io/badge/Search-GEO%20%7C%20AEO%20Ready-purple.svg)]()
@@ -209,6 +209,38 @@ Buka Google Search Console secara berkala dan gunakan tabel diagnosa cepat ini u
 
 ---
 
+## 📊 Lanskap CMS Global & Alokasi Fokus Platform (Data-Driven Strategy)
+
+Banyak pemula di bidang SEO terjebak kebingungan: *"Platform apa yang paling banyak digunakan di luar negeri, dan ke mana saya harus mengalokasikan energi belajar?"*
+
+Berdasarkan data riset resmi dari **[W3Techs](https://w3techs.com/technologies/overview/content_management)** (otoritas data teknologi web global), berikut adalah peta pangsa pasar CMS dunia dan strategi alokasi energi yang direkomendasikan bagi praktisi SEO modern:
+
+### 1. Data Pangsa Pasar CMS Global (W3Techs Industry Benchmark)
+
+| Peringkat | Platform | Pangsa Pasar CMS | % Seluruh Web di Dunia | Peran Utama & Ekosistem Industri |
+| :---: | :--- | :---: | :---: | :--- |
+| **#1** | **WordPress** | **~62.5%** | **~43.1%** | **Raja Mutlak.** Blog, portal media, B2B, affiliate, dan arsitektur Headless modern. |
+| **#2** | **Shopify** | **~6.5%** | **~4.5%** | **Raksasa E-Commerce.** Toko online DTC (Direct-to-Consumer) global (US/Eropa). |
+| **#3** | **Wix** | **~3.8%** | **~2.6%** | **No-Code UMKM.** Bisnis lokal, studio, dan praktisi solo (drag-and-drop). |
+| **#4** | **Squarespace** | **~3.1%** | **~2.1%** | **Kreatif & Portofolio.** Dominan di pasar kreatif Amerika Serikat. |
+| **#5** | **Joomla** | **~2.4%** | **~1.7%** | **CMS Tradisional.** Instalasi lama skala institusi (tren menurun). |
+
+*(Catatan: **WooCommerce** adalah bagian dari ekosistem WordPress yang menguasai sekitar **13%** transaksi e-commerce mandiri global).*
+
+### 2. Formula Alokasi Energi 80/20 (Fokus Praktisi SEO)
+
+Menguasai semua CMS secara bersamaan akan membuatmu menjadi generalist yang serba nanggung. Terapkan prinsip alokasi fokus berbasis data pasar:
+
+- **80% Energi (Fokus Utama & Fondasi): WordPress & Arsitektur Web Modern**
+  - WordPress memegang hampir separuh internet. Di sinilah volume pekerjaan SEO (audit teknis, Schema JSON-LD, optimasi Core Web Vitals, dan content publishing) paling melimpah ruah di pasar global (Upwork, LinkedIn).
+  - Integrasikan keahlian WordPress dengan arsitektur modern (*Headless WordPress + Astro JS / Cloudflare edge*) untuk menciptakan diferensiasi nilai tinggi (*unfair advantage*) yang dicari agensi modern.
+- **20% Energi (Senjata Cadangan): Dasar E-Commerce Shopify**
+  - Cukup pelajari struktur URL Shopify, kanonikal produk/koleksi, dan optimasi kecepatan dasar. Klien e-commerce luar negeri bersedia membayar tarif tinggi untuk perbaikan teknis toko mereka.
+- **Platform Lainnya (Wix, Squarespace, Webflow):**
+  - Cukup pahami prinsip dasar on-page dan indexing-nya sebagai pengetahuan adaptif saat menangani migrasi situs ke WordPress atau Astro.
+
+---
+
 ## 🕋 Standar Visual Syar'i (Faceless & Tanpa Hewan)
 
 Ayo SEO memiliki aturan global terikat pada `rules/AGENTS.md` mengenai kepatuhan visual:
@@ -295,6 +327,7 @@ Ya! Google Search Console kini secara resmi mendukung pemantauan akun sosial med
 
 ## 📝 Ringkasan Versi Terbaru (Changelog Highlights)
 
+- **v1.21.0 (2026-10-12):** Penambahan panduan *Lanskap CMS Global & Alokasi Fokus Platform (Data-Driven Strategy)*. Merangkum data riset resmi W3Techs mengenai dominasi WordPress (62.5% CMS share) dan Shopify, serta formula alokasi energi 80/20 bagi praktisi Technical SEO untuk membidik pasar global.
 - **v1.20.0 (2026-10-11):** Penambahan *Playbook Menjaga Peringkat Agar Tidak Turun (Rank Retention Strategy)*. Panduan pertahanan posisi #1 Google mencakup strategi Content Refresh 80/20, eliminasi sinyal pogo-sticking, disiplin anti-kanibalisasi kata kunci, perawatan jaringan internal link, serta tabel diagnosa dini performa Google Search Console.
 - **v1.19.0 (2026-10-11):** Penambahan panduan *Aktivitas Penunjang Kualitas Konten (Downtime Value-Adds)*. Panduan mendalam tentang dampak masif embed video YouTube (dwell time & multi-modal E-E-A-T), injeksi tangkapan layar asli, perajutan internal link, audit GSC, dan strategi penyegaran konten (*content refresh*).
 - **v1.18.0 (2026-10-11):** Integrasi *Rate Limiting & Anti-Spam Guardrail (Rule #4)* pada arsitektur Autopilot. Penjadwalan eksekusi dikunci maksimal 1 artikel per 24 jam dengan jeda antrean otomatis dan mekanisme peringatan/edukasi wajib jika operator mencoba memaksa *bulk publishing*.
