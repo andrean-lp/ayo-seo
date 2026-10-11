@@ -1,7 +1,7 @@
 # Ayo SEO — AI Agent Senior SEO & Content Strategist
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.17.0-blue.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.18.0-blue.svg)]()
 [![Platform](https://img.shields.io/badge/Platform-Antigravity-orange.svg)]()
 [![SEO Standard](https://img.shields.io/badge/Google-E--E--A--T%20%26%20Helpful%20Content-brightgreen.svg)]()
 [![Optimization](https://img.shields.io/badge/Search-GEO%20%7C%20AEO%20Ready-purple.svg)]()
@@ -184,6 +184,7 @@ flowchart TD
 - **Image Engine (Renderer):** **Flux.1 / Stable Diffusion** via Appverse untuk menghasilkan file gambar cover otomatis.
 - **Target CMS:** Keystatic (Git Push), WordPress REST API, atau Blogger API v3.
 - **Sistem Keamanan:** Terkunci 100% pada artikel cluster *Evergreen* (min. 4 kata) guna melindungi reputasi E-E-A-T domain.
+- **Rate Limiting & Anti-Spam Guardrail (Maksimal 1 Artikel / Hari):** Penjadwalan eksekusi autopilot dikunci default dengan jeda minimal 24 jam per artikel (cron harian). Jika operator mencoba memaksa *bulk publishing*, sistem wajib mengeluarkan log peringatan resiko penalti *Google Scaled Content Abuse* dan kehabisan *crawl budget*.
 
 > Seluruh panduan teknis ini tercatat di [rules/AUTOPILOT_ARCHITECTURE.md](rules/AUTOPILOT_ARCHITECTURE.md).
 
@@ -220,6 +221,7 @@ Ya! Google Search Console kini secara resmi mendukung pemantauan akun sosial med
 
 ## 📝 Ringkasan Versi Terbaru (Changelog Highlights)
 
+- **v1.18.0 (2026-10-11):** Integrasi *Rate Limiting & Anti-Spam Guardrail (Rule #4)* pada arsitektur Autopilot. Penjadwalan eksekusi dikunci maksimal 1 artikel per 24 jam dengan jeda antrean otomatis dan mekanisme peringatan/edukasi wajib jika operator mencoba memaksa *bulk publishing*.
 - **v1.17.0 (2026-10-11):** Penambahan panduan komprehensif *Ritme Publikasi & Anti-Spam (Publishing Cadence)*. Memperkenalkan formula kerja *1 Pilar - 4 Cluster - 1 Siklus*, matriks kecepatan publikasi aman berdasarkan usia domain, serta prinsip *80/20 Human-in-the-Loop* guna mencegah penalti Google Scaled Content Abuse.
 - **v1.16.0 (2026-10-10):** Standarisasi karakter aman dan proteksi Anti-Mojibake. Larangan keras penggunaan em-dash/en-dash (`—`, `–`) di judul/heading (diwajibkan menggunakan tanda hubung `-` keyboard standar) dan larangan menyisipkan emoji di dalam Heading (H1-H4) guna mencegah bug karakter rusak (`â€“`, `â☒`, `???`) di CMS dan parser TOC.
 - **v1.15.0 (2026-10-10):** Penambahan skill `/ayo-seo-cover` (Prompt Cover 16:9 tanpa teks), serta pembuatan prompt cover otomatis pada metadata artikel pilar dan cluster.

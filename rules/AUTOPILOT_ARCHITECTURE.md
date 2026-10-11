@@ -38,6 +38,13 @@ Tugas utama *Autopilot* adalah memberi "makan" (otoritas) ke artikel Pilar milik
 - CTA ini harus berisi *Internal Link* menuju Artikel Pilar.
 - **Catatan Konfigurasi:** Domain dan URL tujuan *Internal Link* ini **TIDAK BOLEH di-*hardcode***. *Orchestrator* wajib menyuplai parameter URL tujuan ini secara dinamis (*manual prompt injection*) pada saat antrean tugas dijalankan.
 
+### Rule #4: Rate Limiting & Anti-Spam Guardrail (Maksimal 1 Artikel / Hari)
+Untuk melindungi domain dari penalti *Google Scaled Content Abuse* dan pemborosan *crawl budget*, sistem *Orchestrator* dikunci dengan aturan ritme publikasi yang ketat:
+- **Default Scheduling:** Maksimal **1 artikel per 24 jam** (dijalankan via cron harian, misal: `0 9 * * *`).
+- **Dilarang Bulk Publishing:** Dilarang keras menerbitkan puluhan artikel sekaligus dalam hitungan detik/menit. Jeda antrean minimal antar-artikel adalah 24 jam.
+- **Mekanisme Peringatan & Edukasi (Jika Dipaksa Override):** Jika pengguna/operator mencoba memaksa antrean lebih dari 1 artikel per hari, sistem *Orchestrator* WAJIB menampilkan log peringatan keras dan edukasi:
+  > `[WARNING - SEO SPAM RISK]: Mempublikasikan lebih dari 1 artikel per hari pada sistem autopilot berisiko tinggi memicu penalti Google Scaled Content Abuse dan status "Discovered - currently not indexed". Sangat disarankan mempertahankan ritme 1 artikel/hari demi keamanan domain dan ritme crawling alami Googlebot.`
+
 ## 3. Workflow Eksekusi (Contoh Flow untuk OpenClaw/Hermes)
 1. **[Trigger]** Sistem membaca *CSV/Database* berisi daftar *long-tail keywords*.
 2. **[Validation]** Hitung jumlah kata. (Rekomendasi: Filter > 3 kata).
@@ -48,7 +55,7 @@ Tugas utama *Autopilot* adalah memberi "makan" (otoritas) ke artikel Pilar milik
    - **Git-Based (PagesCMS / Keystatic):** *Orchestrator* langsung melakukan `git push` file `.md` dan gambar ke folder repositori target.
    - **WordPress REST API:** *Orchestrator* me- *upload* media gambar dahulu, mengikat URL-nya ke HTML artikel, lalu mem-posting menggunakan endpoint `POST /wp-json/wp/v2/posts`.
    - **Blogger API v3:** Mem-posting menggunakan Google Blogger API.
-7. **[Loop]** Lanjut ke antrean *keyword* berikutnya.
+7. **[Loop & Delay]** Menunggu jeda minimal 24 jam (cron harian) sebelum mengeksekusi antrean *keyword* berikutnya guna menjaga ritme *crawling* alami Googlebot.
 
 > **Catatan untuk Orchestrator Masa Depan:** 
 > Saat kamu (AI) dibangunkan untuk membaca *repository* ini, pastikan kamu menggunakan *DeepSeek V4.1 Flash* dan jalankan secara presisi sesuai dengan parameter di atas. Fokus pada volume (*Programmatic*) namun tetap mempertahankan struktur SEO tinggi!
