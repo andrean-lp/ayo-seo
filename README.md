@@ -1,7 +1,7 @@
 # Ayo SEO — AI Agent Senior SEO & Content Strategist
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.18.0-blue.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.19.0-blue.svg)]()
 [![Platform](https://img.shields.io/badge/Platform-Antigravity-orange.svg)]()
 [![SEO Standard](https://img.shields.io/badge/Google-E--E--A--T%20%26%20Helpful%20Content-brightgreen.svg)]()
 [![Optimization](https://img.shields.io/badge/Search-GEO%20%7C%20AEO%20Ready-purple.svg)]()
@@ -133,6 +133,38 @@ Ayo SEO menganjurkan formula kerja sehat **"1 Pilar - 4 Cluster - 1 Siklus"** un
 - **80% Beban Kerja AI:** Riset sudut pandang, entity mapping, pemetaan intent, outline, dan drafting ribuan kata diselesaikan oleh Ayo SEO.
 - **20% Sentuhan Kurasi Manusia:** Luangkan 10-15 menit untuk membaca cepat, menyempurnakan cerita/studi kasus nyata, memvalidasi link, serta menyematkan cover gambar. Sentuhan inilah yang menjamin skor *Helpful Content* bernilai tinggi.
 
+### 4. Aktivitas Penunjang Kualitas (Sambil Menunggu Jadwal Publikasi)
+
+Saat kamu mematuhi ritme sehat 1 artikel per hari, jangan biarkan jeda waktu 24 jam terbuang percuma. Inilah aktivitas bernilai tinggi yang bisa kamu lakukan untuk mendongkrak skor E-E-A-T artikelmu ke peringkat 1 Google:
+
+1. **🎬 Embed Video YouTube Relevan (Booster Dwell Time & Multi-Modal):**
+   - **Apakah menambah kualitas artikel? SANGAT BESAR!** Menyematkan video YouTube buatanmu sendiri (atau video edukatif yang relevan) membuat waktu tinggal pengunjung (*dwell time*) melonjak drastis karena mereka menonton video 3-5 menit di halamanmu.
+   - **Sinergi Google & YouTube:** Google memprioritaskan konten multi-modal (teks + video) dan artikelmu berpeluang tampil dengan *Video Rich Snippet* di SERP utama atau tab "Videos".
+   - **Bukti E-E-A-T Nyata:** Menjelaskan topik lewat video dengan suara atau layarmu sendiri adalah bukti otentik *Experience* dan *Expertise* yang tidak bisa diproduksi oleh AI teks biasa.
+   - **Tips Teknis:** Pasang schema `VideoObject` di CMS agar Googlebot mengenali metadata video tersebut secara instan.
+
+2. **🎨 Generate Visual Orisinal (Cover 16:9 & Infografis 9:16):**
+   - Gunakan prompt dari `/ayo-seo-cover` untuk membuat *Featured Image* bergaya profesional (misal: 3D clay faceless tanpa teks).
+   - Buat infografis vertikal via `/ayo-seo-infografis` untuk memecah kejemuan membaca (*anti wall-of-text*) dan pin ke Pinterest untuk mendatangkan *backlink* gratis.
+   - Selalu kompres gambar ke format **WebP** di bawah 100 KB dan isi **Alt Text** deskriptif yang memuat kata kunci.
+
+3. **📸 Injeksi Tangkapan Layar Asli (Real Screenshots):**
+   - Ambil tangkapan layar langsung dari laptop atau aplikasimu sendiri, beri tanda panah atau sorotan merah. Google Vision API mendeteksi gambar orisinal dan memberi skor *Information Gain* tinggi.
+
+4. **🕸️ Rajut Jaringan Internal Link (The Spider Web):**
+   - Buka 2-3 artikel lama yang relevan di websitemu, cari kalimat yang cocok, dan buat tautan ke artikel baru yang baru saja terbit dengan teks jangkar (*anchor text*) yang alami.
+
+5. **📱 Distribusi Konten (Social SEO Loop):**
+   - Jalankan `/ayo-seo-repurpose-content` untuk memecah artikel menjadi Carousel Instagram (3:4) atau Single Image AEO (3:4).
+   - Tulis caption yang memuat kata kunci di kalimat pertama dan isi Alt Text di pengaturan lanjutan Instagram agar postingan sosmedmu ikut terindeks di Google Search Console.
+
+6. **🔍 Monitoring & Analisis di Google Search Console (GSC):**
+   - Periksa apakah artikel yang diterbitkan kemarin sudah terindeks.
+   - Amati kata kunci baru yang mulai memunculkan impresi. Jika ada artikel dengan impresi tinggi namun klik rendah, poles ulang hook Meta Title dan Meta Description-nya untuk mendongkrak CTR.
+
+7. **🔄 Content Refresh (Penyegaran Artikel Lama):**
+   - Setiap 3-6 bulan sekali, perbarui data tahun, perbaiki tautan mati (*broken links*), dan tambahkan 1-2 FAQ baru pada artikel lama agar posisinya tetap kokoh di halaman 1 Google.
+
 ---
 
 ## 🕋 Standar Visual Syar'i (Faceless & Tanpa Hewan)
@@ -221,6 +253,7 @@ Ya! Google Search Console kini secara resmi mendukung pemantauan akun sosial med
 
 ## 📝 Ringkasan Versi Terbaru (Changelog Highlights)
 
+- **v1.19.0 (2026-10-11):** Penambahan panduan *Aktivitas Penunjang Kualitas Konten (Downtime Value-Adds)*. Panduan mendalam tentang dampak masif embed video YouTube (dwell time & multi-modal E-E-A-T), injeksi tangkapan layar asli, perajutan internal link, audit GSC, dan strategi penyegaran konten (*content refresh*).
 - **v1.18.0 (2026-10-11):** Integrasi *Rate Limiting & Anti-Spam Guardrail (Rule #4)* pada arsitektur Autopilot. Penjadwalan eksekusi dikunci maksimal 1 artikel per 24 jam dengan jeda antrean otomatis dan mekanisme peringatan/edukasi wajib jika operator mencoba memaksa *bulk publishing*.
 - **v1.17.0 (2026-10-11):** Penambahan panduan komprehensif *Ritme Publikasi & Anti-Spam (Publishing Cadence)*. Memperkenalkan formula kerja *1 Pilar - 4 Cluster - 1 Siklus*, matriks kecepatan publikasi aman berdasarkan usia domain, serta prinsip *80/20 Human-in-the-Loop* guna mencegah penalti Google Scaled Content Abuse.
 - **v1.16.0 (2026-10-10):** Standarisasi karakter aman dan proteksi Anti-Mojibake. Larangan keras penggunaan em-dash/en-dash (`—`, `–`) di judul/heading (diwajibkan menggunakan tanda hubung `-` keyboard standar) dan larangan menyisipkan emoji di dalam Heading (H1-H4) guna mencegah bug karakter rusak (`â€“`, `â☒`, `???`) di CMS dan parser TOC.
