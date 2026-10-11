@@ -1,7 +1,7 @@
 # Ayo SEO — AI Agent Senior SEO & Content Strategist
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.16.0-blue.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.17.0-blue.svg)]()
 [![Platform](https://img.shields.io/badge/Platform-Antigravity-orange.svg)]()
 [![SEO Standard](https://img.shields.io/badge/Google-E--E--A--T%20%26%20Helpful%20Content-brightgreen.svg)]()
 [![Optimization](https://img.shields.io/badge/Search-GEO%20%7C%20AEO%20Ready-purple.svg)]()
@@ -102,6 +102,39 @@ Ayo SEO menyediakan rangkaian *skills* lengkap untuk kebutuhan produksi hingga d
 
 ---
 
+## 🚦 Panduan Ritme Publikasi & Anti-Spam (Publishing Cadence)
+
+Kemudahan memproduksi artikel berkualitas dalam hitungan menit sering memicu godaan untuk mempublikasikan puluhan artikel sekaligus setiap hari. Di mata Google (khususnya pasca *Google Spam & Scaled Content Abuse Update*), lonjakan volume tanpa struktur klaster yang matang adalah sinyal bahaya yang dapat memicu status *"Discovered - currently not indexed"* atau penalti domain.
+
+Ayo SEO menganjurkan formula kerja sehat **"1 Pilar - 4 Cluster - 1 Siklus"** untuk membangun *Topical Authority* alami:
+
+### 1. Siklus Mingguan Ideal (The Topical Loop)
+
+```text
+[Senin]                [Selasa - Kamis]              [Jumat]              [Sabtu - Minggu]
+1 Artikel Pilar   ->   3 Artikel Cluster      ->     1 Glossary /     ->  Evaluasi & Repurpose
+(Fondasi Induk)        (Prajurit Penopang)          Internal Linking      (Sosmed / Istirahat)
+```
+
+- **Hari 1 (Fondasi):** Buat 1 Artikel Pilar (`/ayo-seo-pilar`) sebagai induk topik besar (2.500-4.000+ kata). Pasang cover 16:9 dan rapikan Table of Contents.
+- **Hari 2-4 (Penopang):** Buat 1 Artikel Cluster per hari (`/ayo-seo-cluster`) yang membedah subtopik spesifik dari pilar. Wajib pasang *internal link* yang mengalir kembali ke artikel pilar.
+- **Hari 5 (Kamus Istilah):** Buat 1 Artikel Glossary (`/ayo-seo-glossary`) untuk mendefinisikan istilah teknis yang paling relevan.
+- **Akhir Pekan (Distribusi & Validasi):** Jangan menulis artikel baru. Gunakan `/ayo-seo-repurpose-content` atau `/ayo-seo-infografis` untuk mendistribusikan intisari ke Instagram/Pinterest guna menjaring trafik rujukan awal.
+
+### 2. Matriks Kecepatan Aman Berdasarkan Usia Domain
+
+| Fase / Usia Website | Batas Frekuensi Publikasi yang Sehat | Fokus Strategis |
+| :--- | :--- | :--- |
+| **Website Baru (< 3 Bulan)** | **2-3 artikel / minggu** (Maksimal 1 artikel / hari) | Membangun kepercayaan Google, menjaga kualitas indeks, dan menghindari sandbox. |
+| **Website Berkembang (3-12 Bulan)** | **4-5 artikel / minggu** (1 artikel / hari kerja) | Memperluas klaster topik yang sudah mulai mencatat impresi di Google Search Console. |
+| **Website Mapan / Authority (> 1 Tahun, DA 25+)** | **1-3 artikel / hari** | Menutup celah *content gap* kompetitor secara agresif pada berbagai kategori. |
+
+### 3. Prinsip 80/20 (Human-in-the-Loop)
+- **80% Beban Kerja AI:** Riset sudut pandang, entity mapping, pemetaan intent, outline, dan drafting ribuan kata diselesaikan oleh Ayo SEO.
+- **20% Sentuhan Kurasi Manusia:** Luangkan 10-15 menit untuk membaca cepat, menyempurnakan cerita/studi kasus nyata, memvalidasi link, serta menyematkan cover gambar. Sentuhan inilah yang menjamin skor *Helpful Content* bernilai tinggi.
+
+---
+
 ## 🕋 Standar Visual Syar'i (Faceless & Tanpa Hewan)
 
 Ayo SEO memiliki aturan global terikat pada `rules/AGENTS.md` mengenai kepatuhan visual:
@@ -187,6 +220,7 @@ Ya! Google Search Console kini secara resmi mendukung pemantauan akun sosial med
 
 ## 📝 Ringkasan Versi Terbaru (Changelog Highlights)
 
+- **v1.17.0 (2026-10-11):** Penambahan panduan komprehensif *Ritme Publikasi & Anti-Spam (Publishing Cadence)*. Memperkenalkan formula kerja *1 Pilar - 4 Cluster - 1 Siklus*, matriks kecepatan publikasi aman berdasarkan usia domain, serta prinsip *80/20 Human-in-the-Loop* guna mencegah penalti Google Scaled Content Abuse.
 - **v1.16.0 (2026-10-10):** Standarisasi karakter aman dan proteksi Anti-Mojibake. Larangan keras penggunaan em-dash/en-dash (`—`, `–`) di judul/heading (diwajibkan menggunakan tanda hubung `-` keyboard standar) dan larangan menyisipkan emoji di dalam Heading (H1-H4) guna mencegah bug karakter rusak (`â€“`, `â☒`, `???`) di CMS dan parser TOC.
 - **v1.15.0 (2026-10-10):** Penambahan skill `/ayo-seo-cover` (Prompt Cover 16:9 tanpa teks), serta pembuatan prompt cover otomatis pada metadata artikel pilar dan cluster.
 - **v1.14.1:** Penyesuaian rasio default Single Image AEO menjadi `3:4 (Portrait)` untuk keterbacaan optimal di layar smartphone.
