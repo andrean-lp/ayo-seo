@@ -1,7 +1,7 @@
 # Ayo SEO — AI Agent Senior SEO & Content Strategist
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.19.0-blue.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.20.0-blue.svg)]()
 [![Platform](https://img.shields.io/badge/Platform-Antigravity-orange.svg)]()
 [![SEO Standard](https://img.shields.io/badge/Google-E--E--A--T%20%26%20Helpful%20Content-brightgreen.svg)]()
 [![Optimization](https://img.shields.io/badge/Search-GEO%20%7C%20AEO%20Ready-purple.svg)]()
@@ -167,6 +167,48 @@ Saat kamu mematuhi ritme sehat 1 artikel per hari, jangan biarkan jeda waktu 24 
 
 ---
 
+## 🛡️ Playbook Menjaga Peringkat Agar Tidak Turun (Rank Retention Strategy)
+
+Menduduki peringkat #1 di Google bukanlah "tiket kemenangan seumur hidup", melainkan posisi yang wajib dirawat secara berkala. Banyak pemilik website terjebak dalam siklus memproduksi konten baru secara membabi buta hingga melupakan artikel-artikel lama yang sebenarnya sudah menghasilkan trafik dan siap digeser kompetitor.
+
+Pelajari 5 strategi pertahanan wajib dari para praktisi SEO senior untuk menjaga agar peringkat websitemu tetap kokoh:
+
+### 1. Hukum 80/20: Content Refresh (Penyegaran Konten Berkala)
+Google sangat mencintai **Freshness (Kebaruan Informasi)**. Artikel komprehensif yang duduk di peringkat 1 hari ini bisa merosot dalam 6-12 bulan jika datanya usang.
+- **Tindakan Rutin (Setiap 3-6 Bulan):**
+  - Perbarui angka tahun pada judul dan isi konten (misal: dari 2025 ke 2026).
+  - Cek tautan eksternal (*outbound links*), segera ganti jika ada link mati (*broken link/404*).
+  - Tambahkan 1-2 FAQ baru atau wawasan tren tools terbaru yang sedang ramai dibahas audiens.
+  - Tambahkan studi kasus atau tangkapan layar baru agar Googlebot melihat adanya *fresh update*.
+
+### 2. Eliminasi Sinyal Mematikan: Pogo-Sticking
+*Pogo-sticking* terjadi saat pencari mengklik websitemu dari SERP, namun dalam 5 detik langsung menekan tombol *Back* dan mengklik website kompetitor di bawahmu. Bagi algoritma Google, ini sinyal bahwa halamanmu mengecewakan atau tidak relevan.
+- **Pertahanan Utama:**
+  - **Tepati Janji di Judul:** Judul boleh memantik rasa penasaran (*Curiosity Gap*), tetapi dilarang keras menipu (*deceptive clickbait*).
+  - **Sajikan Jawaban Instan (TL;DR):** Tempatkan *Key Takeaways* di awal artikel agar pembaca langsung tahu mereka berada di tempat yang tepat.
+  - **Dwell Time Booster:** Sematkan video YouTube, infografis vertikal, atau tabel data interaktif untuk menahan pengunjung berlama-lama di halamanmu.
+
+### 3. Disiplin Anti-Kanibalisasi Kata Kunci (1 Keyword = 1 Halaman Juara)
+Ketika website bertambah besar, sering kali pemilik web memproduksi artikel baru yang menargetkan kata kunci yang hampir sama persis dengan artikel yang sudah ada.
+- **Risiko Fatal:** Dua halaman dari websitemu sendiri akan saling "bermusuhan" di SERP. Google bingung menentukan mana halaman otoritas utama, hingga akhirnya **keduanya sama-sama anjlok ranking-nya**.
+- **Solusi Arsitektur:** Selalu konsisten pada formula **Topical Cluster**. Satu kata kunci utama hanya boleh dimiliki oleh 1 Artikel Pilar atau 1 Artikel Cluster. Topik turunan harus berperan sebagai pendukung dan menautkan *internal link* ke halaman induk, bukan malah menyainginya.
+
+### 4. Perawatan Sarang Laba-Laba (Internal Linking Maintenance)
+Internal link adalah pembuluh darah yang mengalirkan otoritas (*PageRank*) ke seluruh website.
+- Jangan biarkan ada artikel yang terisolasi (*orphan pages*).
+- Setiap kali menerbitkan artikel baru hari ini, luangkan waktu 5 menit untuk membuka 2-3 artikel lama yang relevan, lalu sisipkan tautan alami menuju artikel baru tersebut dengan teks jangkar (*anchor text*) yang bervariasi dan kontekstual.
+
+### 5. Deteksi Dini Gejala Penurunan di Google Search Console (GSC)
+Buka Google Search Console secara berkala dan gunakan tabel diagnosa cepat ini untuk melakukan penyelamatan sebelum ranking benar-benar anjlok:
+
+| Gejala di GSC | Diagnosa Masalah | Solusi Penyelamatan Cepat |
+| :--- | :--- | :--- |
+| **Impresi Stabil, tapi Klik Menurun** | Judul atau Meta Description kalah menarik dibanding kompetitor baru di SERP. | Poles ulang H1 dan Meta Title dengan formula *Curiosity Gap* yang lebih segar dan tingkatkan daya pikat CTR. |
+| **Impresi & Posisi Rata-rata Turun Perlahan** | Terjadi pembusukan konten (*content decay*) atau kompetitor membuat konten yang jauh lebih lengkap (10x Content). | Lakukan *Content Refresh*: lengkapi data statistik baru, sematkan video YouTube, dan perbanyak poin FAQ. |
+| **Posisi Turun Drastis Mendadak (Drop > 10 Peringkat)** | Kemungkinan kanibalisasi kata kunci, masalah teknis indeks (noindex/canonical bug), atau terdampak Core Update. | Audit URL duplikat, periksa status indexing di GSC, dan evaluasi kepatuhan E-E-A-T pada halaman tersebut. |
+
+---
+
 ## 🕋 Standar Visual Syar'i (Faceless & Tanpa Hewan)
 
 Ayo SEO memiliki aturan global terikat pada `rules/AGENTS.md` mengenai kepatuhan visual:
@@ -253,6 +295,7 @@ Ya! Google Search Console kini secara resmi mendukung pemantauan akun sosial med
 
 ## 📝 Ringkasan Versi Terbaru (Changelog Highlights)
 
+- **v1.20.0 (2026-10-11):** Penambahan *Playbook Menjaga Peringkat Agar Tidak Turun (Rank Retention Strategy)*. Panduan pertahanan posisi #1 Google mencakup strategi Content Refresh 80/20, eliminasi sinyal pogo-sticking, disiplin anti-kanibalisasi kata kunci, perawatan jaringan internal link, serta tabel diagnosa dini performa Google Search Console.
 - **v1.19.0 (2026-10-11):** Penambahan panduan *Aktivitas Penunjang Kualitas Konten (Downtime Value-Adds)*. Panduan mendalam tentang dampak masif embed video YouTube (dwell time & multi-modal E-E-A-T), injeksi tangkapan layar asli, perajutan internal link, audit GSC, dan strategi penyegaran konten (*content refresh*).
 - **v1.18.0 (2026-10-11):** Integrasi *Rate Limiting & Anti-Spam Guardrail (Rule #4)* pada arsitektur Autopilot. Penjadwalan eksekusi dikunci maksimal 1 artikel per 24 jam dengan jeda antrean otomatis dan mekanisme peringatan/edukasi wajib jika operator mencoba memaksa *bulk publishing*.
 - **v1.17.0 (2026-10-11):** Penambahan panduan komprehensif *Ritme Publikasi & Anti-Spam (Publishing Cadence)*. Memperkenalkan formula kerja *1 Pilar - 4 Cluster - 1 Siklus*, matriks kecepatan publikasi aman berdasarkan usia domain, serta prinsip *80/20 Human-in-the-Loop* guna mencegah penalti Google Scaled Content Abuse.
