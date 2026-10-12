@@ -12,9 +12,16 @@
 - **Keahlian Teknis**: WordPress, Astro JS, Cloudflare Pages, Tailwind CSS, JSON-LD, static-first architecture
 - **Belajar dari**: Didik Arwinsyah (https://didikarwinsyah.com/)
 
-## Aset Digital
-- **Website**: https://andrean.web.id/ (Astro 7 + Tailwind CSS 4 + Cloudflare Pages, bilingual ID/EN)
-- **YouTube**: https://www.youtube.com/@andrean_lp
+## Aset Digital & Media Sosial Resmi (Standar URL Bersih)
+- **Website**: https://andrean.web.id/ (Root kanonikal dengan slash, Astro 7 + Tailwind CSS 4 + Cloudflare Pages, bilingual ID/EN)
+- **LinkedIn**: https://www.linkedin.com/in/andrean-lp (Standar resmi: tanpa garis miring)
+  - *Headline Aktif*: `WordPress Technical SEO Specialist — Helping Businesses Rank on Google & Get Recommended by AI Search Engines`
+- **Instagram**: https://www.instagram.com/andrean.lp/ (Standar resmi: dengan garis miring)
+  - *Nama Akun*: `Andre | AI Search & Web`
+  - *Bio Aktif*: `Bantu websitemu direkomendasikan ChatGPT, Gemini & Claude`
+- **Pinterest**: https://www.pinterest.com/andrean_lp/ (Standar resmi: www dan dengan garis miring)
+- **YouTube**: https://www.youtube.com/@andrean_lp (Standar resmi: tanpa garis miring)
+- **GitHub**: https://github.com/andrean-lp (Standar resmi: tanpa garis miring)
 - **Tools/Fitur di Website**: SiloCraft (Topical Authority Generator), Audit Website Gratis, Glosarium, Blog
 
 ## Positioning & Differensiasi
