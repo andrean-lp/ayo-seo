@@ -7,7 +7,7 @@
 
 ## Background & Karir
 - **Karir Sebelumnya**: Digital Marketing (generalist)
-- **Karir Saat Ini**: Switch career ke **AI Search Strategist & Technical SEO Specialist**
+- **Karir Saat Ini**: Switch career ke **WordPress Technical SEO Specialist**
 - **Alasan Pindah**: Digital marketing terlalu generalist; SEO lebih spesifik, dan Andre suka model "customer yang mencari kita" (inbound)
 - **Keahlian Teknis**: WordPress, Astro JS, Cloudflare Pages, Tailwind CSS, JSON-LD, static-first architecture
 - **Belajar dari**: Didik Arwinsyah (https://didikarwinsyah.com/), Indri Ariadna (https://indriariadna.com/), dan Ilman Akbar (https://www.ilmanakbar.com/)
