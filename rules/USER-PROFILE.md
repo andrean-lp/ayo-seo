@@ -10,7 +10,7 @@
 - **Karir Saat Ini**: Switch career ke **AI Search Strategist & Technical SEO Specialist**
 - **Alasan Pindah**: Digital marketing terlalu generalist; SEO lebih spesifik, dan Andre suka model "customer yang mencari kita" (inbound)
 - **Keahlian Teknis**: WordPress, Astro JS, Cloudflare Pages, Tailwind CSS, JSON-LD, static-first architecture
-- **Belajar dari**: Didik Arwinsyah (https://didikarwinsyah.com/) & Indri Ariadna (https://indriariadna.com/)
+- **Belajar dari**: Didik Arwinsyah (https://didikarwinsyah.com/), Indri Ariadna (https://indriariadna.com/), dan Ilman Akbar (https://www.ilmanakbar.com/)
 
 ## Aset Digital & Media Sosial Resmi (Standar URL Bersih)
 - **Website**: https://andrean.web.id/ (Root kanonikal dengan slash, Astro 7 + Tailwind CSS 4 + Cloudflare Pages, bilingual ID/EN)
