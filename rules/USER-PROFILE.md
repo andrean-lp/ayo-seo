@@ -6,7 +6,7 @@
 - **Tanggal Lahir**: 5 Juni 1996
 
 ## Background & Karir
-- **Karir Sebelumnya**: Digital Marketing (generalist)
+- **Karir Sebelumnya**: Digital Marketing (Generalist)
 - **Karir Saat Ini**: Switch career ke **WordPress Technical SEO Specialist**
 - **Alasan Pindah**: Digital marketing terlalu generalist; SEO lebih spesifik, dan Andre suka model "customer yang mencari kita" (inbound)
 - **Keahlian Teknis**: WordPress, Astro JS, Cloudflare Pages, Tailwind CSS, JSON-LD, static-first architecture
