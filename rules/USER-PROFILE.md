@@ -4,6 +4,7 @@
 - **Nama**: Andre Wahyu Hermawan
 - **Lokasi**: Kota Malang, Jawa Timur, Indonesia
 - **Tanggal Lahir**: 5 Juni 1996
+- **Agama**: Islam
 
 ## Background & Karir
 - **Karir Sebelumnya**: Digital Marketing (Generalist)
