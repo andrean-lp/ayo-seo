@@ -70,11 +70,33 @@ Positioning → Core Message → Content Pillar → Format Konten → Hook
 - **Senjata Cadangan (20% Energi):** Pelajari dasar-dasar teknis **Shopify** (struktur URL, kanonikal produk/koleksi, optimasi gambar/kecepatan) untuk menangkap peluang e-commerce global di Upwork tanpa perlu mendalaminya secara berlebihan.
 - **Platform Lain (Wix, Squarespace, dll):** Dipelajari sebatas prinsip umum/migrasi jika ada kebutuhan klien, tidak dijadikan fokus utama.
 
+## Cetak Biru Menuju Time Freedom (Naval Leverage Blueprint)
+
+### 1. Jalur Transisi 5 Tahap (Dari Labor Menuju Code & Media)
+1. **Tahap 1 (Personal Branding & Authority):** Bangun reputasi di YouTube (@andrean_lp), Blog (andrean.web.id), dan LinkedIn sebagai pembuktian E-E-A-T.
+2. **Tahap 2 (High-Ticket Technical Services):** Ambil jasa audit & perbaikan teknis klien global (Upwork) untuk mengumpulkan cashflow awal dan memetakan masalah teknis paling umum yang dialami pemilik web.
+3. **Tahap 3 (Digital Assets / Productized Solutions):** Kemas solusi berulang menjadi produk siap pakai (template Astro SEO, panduan/checklist audit, schema boilerplates).
+4. **Tahap 4 (Code / Micro-SaaS):** Bangun aplikasi web / tools otomatis berbasis langganan (recurring income) yang memecahkan masalah pencarian modern tanpa keterlibatan waktu harian.
+5. **Tahap 5 (Time Freedom):** Penghasilan mengalir dari kombinasi software otomatis (Code) dan traffic organik stabil (Media).
+
+### 2. Arah Pengembangan Software / Micro-SaaS yang Cocok dengan Positioning:
+1. **SiloCraft (Topical Authority & Semantic Silo Generator):**
+   - *Fungsi:* Tool generator struktur konten pilar-cluster-glossary otomatis lengkap dengan rekomendasi internal link dan schema JSON-LD untuk WordPress / Astro.
+   - *Model Bisnis:* Freemium / Credit-based / Bulanan.
+2. **AI Search Citation Monitor (GEO Visibility Tracker):**
+   - *Fungsi:* Tool pengecek otomatis apakah suatu brand/website sudah dikutip oleh ChatGPT Search, Perplexity, dan Gemini AI Overviews untuk kata kunci tertentu.
+   - *Model Bisnis:* Langganan bulanan untuk agensi & pemilik bisnis.
+3. **Headless WordPress to Astro Sync / Optimizer:**
+   - *Fungsi:* Plugin / tool yang mempermudah pemilik blog WordPress beralih ke frontend Astro super-cepat di Cloudflare edge secara instan.
+
 ## Instruksi untuk Agent
 - Selalu berikan advice yang **personalized** sesuai konteks Andre (bukan generik).
 - Saat merekomendasikan strategi SEO, pertimbangkan bahwa Andre **bisa implementasi teknis sendiri** (coding, deploy, schema markup).
 - Prioritaskan topik GEO/AEO dan Technical SEO dalam saran konten — ini positioning utamanya.
 - Saat menyusun ide konten, artikel, script YouTube, maupun copywriting, **SELALU rujuk ke Core Message dan Content Pillar di atas**.
 - Ingat bahwa **fokus teknis CMS Andre adalah WordPress + Astro JS**, jangan bebani dengan CMS lain selain dasar Shopify.
+- Ingat bahwa tujuan akhir karir Andre adalah **Time Freedom** melalui pembangunan aset software (Micro-SaaS) dan media organik mandiri (Code & Media Leverage).
+- Selalu dorong dan ingatkan Andre untuk mendokumentasikan pola masalah klien menjadi ide fitur produk atau automasi software.
 - Andre sedang dalam fase **learning & building portfolio** — saran harus actionable dan bisa langsung dipraktekkan.
+
 
